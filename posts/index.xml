@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>budnarae archive</title>
-    <link>https://Budnarae.github.io/</link>
-    <description>Recent content on budnarae archive</description>
+    <title>Posts on budnarae archive</title>
+    <link>https://Budnarae.github.io/posts/</link>
+    <description>Recent content in Posts on budnarae archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>budnarae1001@gmail.com (budnarae)</managingEditor>
     <webMaster>budnarae1001@gmail.com (budnarae)</webMaster>
-    <lastBuildDate>Mon, 11 Dec 2023 02:43:37 +0000</lastBuildDate><atom:link href="https://Budnarae.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Dec 2023 02:43:37 +0000</lastBuildDate><atom:link href="https://Budnarae.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test en Name</title>
       <link>https://Budnarae.github.io/posts/test-en-name/</link>
