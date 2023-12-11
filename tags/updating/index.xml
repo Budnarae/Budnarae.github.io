@@ -18,10 +18,10 @@
       <description>&lt;p&gt;본 문서는 지속적으로 갱신됩니다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;hugo--블로그&#34;&gt;hugo &amp;amp;&amp;amp; 블로그&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;hugo 설치&lt;/a&gt;
-&lt;a href=&#34;https://selfinvestfriends.tistory.com/77&#34;&gt;hugo를 사용한 블로그 구축&lt;/a&gt;
-&lt;a href=&#34;https://stackedit.io/&#34;&gt;편리한 마크다운 웹 에디터&lt;/a&gt;
-&lt;a href=&#34;https://github.com/michaelneuper/hugo-texify3&#34;&gt;테마 - texify 3&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;hugo 설치&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://selfinvestfriends.tistory.com/77&#34;&gt;hugo를 사용한 블로그 구축&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://stackedit.io/&#34;&gt;편리한 마크다운 웹 에디터&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/michaelneuper/hugo-texify3&#34;&gt;테마 - texify 3&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://github.com/michaelneuper/hugo-texify3/blob/master/exampleSite/hugo.toml&#34;&gt;texify 3 hugo.toml 예시&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;리눅스&#34;&gt;리눅스&lt;/h3&gt;
