@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://Budnarae.github.io/sitemap.xml
