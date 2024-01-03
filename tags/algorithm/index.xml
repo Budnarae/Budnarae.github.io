@@ -266,7 +266,7 @@ Y --&gt; a[T1]
 Y --&gt; X[X]
 X --&gt; b[T2]
 X --&gt; c[T3]
-Z --&gt; d[Y4]
+Z --&gt; d[T4]
 &lt;/div&gt;
 
 &lt;p&gt;아래와 같이 변환한다.&lt;/p&gt;
