@@ -64,7 +64,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Budnarae.github.io/posts/avl_tree/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-01-02T23:04:21+00:00" />
-<meta property="article:modified_time" content="2024-01-03T05:18:49+00:00" /><meta property="og:site_name" content="budnarae archive" />
+<meta property="article:modified_time" content="2024-01-03T05:36:59+00:00" /><meta property="og:site_name" content="budnarae archive" />
 
 
 
@@ -75,7 +75,7 @@
   
   <meta itemprop="name" content="avl tree를 이용한 중복값 검사">
 <meta itemprop="description" content="avl 트리를 사용한 중복 검사 개요 본문은 보다 효율적으로 중복 여부를 검사하기 위해 고민한 경험을 공유하기 위해 작성되었다. 이 주제를 고민하게 된 계기는 42 서울의 2서"><meta itemprop="datePublished" content="2024-01-02T23:04:21+00:00" />
-<meta itemprop="dateModified" content="2024-01-03T05:18:49+00:00" />
+<meta itemprop="dateModified" content="2024-01-03T05:36:59+00:00" />
 <meta itemprop="wordCount" content="2816">
 <meta itemprop="keywords" content="data structure,algorithm," />
 
@@ -445,54 +445,54 @@ method 2 runtime : 0.000650
 <p>(왼쪽으로 트리가 기울어진 경우. T1 ~ T4 포인터는 null을 가리키고 있어도 무방하다)<br>
 (LL 케이스)</p>
 <div class="mermaid">graph TD
-style X fill:#89cff0
-style Y fill:#89cff0
-style Z fill:#89cff0
-Z[Z] --> Y[Y]
-Z --> d[T4]
-Y --> X[X]
-Y --> c[T3]
-X --> a[T1]
-X --> b[T2]
+	style X fill:#89cff0
+	style Y fill:#89cff0
+	style Z fill:#89cff0
+	Z[Z] --> Y[Y]
+	Z --> d[T4]
+	Y --> X[X]
+	Y --> c[T3]
+	X --> a[T1]
+	X --> b[T2]
 </div>
 
 <p>아래와 같이 변환한다.</p>
 <div class="mermaid">graph TD
-style X fill:#89cff0
-style Y fill:#89cff0
-style Z fill:#89cff0
-Y --> X[X]
-X --> a[T1]
-X --> b[T2]
-Y[Y] --> Z[Z]
-Z --> c[T3]
-Z --> d[T4]
+	style X fill:#89cff0
+	style Y fill:#89cff0
+	style Z fill:#89cff0
+	Y --> X[X]
+	X --> a[T1]
+	X --> b[T2]
+	Y[Y] --> Z[Z]
+	Z --> c[T3]
+	Z --> d[T4]
 </div>
 
 <p>(LR 케이스의 경우 LL 케이스로 변환 후 처리한다.)</p>
 <div class="mermaid">flowchart TD
-style X fill:#89cff0
-style Y fill:#89cff0
-style Z fill:#89cff0
+	style Y fill:#89cff0
+	style Z fill:#89cff0
 	Z[Z] --> Y[Y]
 	Y --> a[T1]
     Y --> X[X]
     X --> b[T2]
     X --> c[T3]
     Z --> d[T4]
+	style X fill:#89cff0
 </div>
 
 <p>아래와 같이 변환한다.</p>
 <div class="mermaid">graph TD
-style X fill:#89cff0
-style Y fill:#89cff0
-style Z fill:#89cff0
-Z[Z] --> X[X]
-X --> Y[Y]
-Y --> a[T1]
-Y --> b[T2]
-X --> c[T3]
-Z --> d[T4]
+	style X fill:#89cff0
+	style Y fill:#89cff0
+	style Z fill:#89cff0
+	Z[Z] --> X[X]
+	X --> Y[Y]
+	Y --> a[T1]
+	Y --> b[T2]
+	X --> c[T3]
+	Z --> d[T4]
 </div>
 
 <p>오른쪽으로 치우친 경우 위의 경우를 대칭으로 적용한다.<br>
