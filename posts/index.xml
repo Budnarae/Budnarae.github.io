@@ -257,16 +257,16 @@ Z --&gt; d[T4]
 &lt;/div&gt;
 
 &lt;p&gt;(LR 케이스의 경우 LL 케이스로 변환 후 처리한다.)&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;graph TD
+&lt;div class=&#34;mermaid&#34;&gt;flowchart TD
 style X fill:#89cff0
 style Y fill:#89cff0
 style Z fill:#89cff0
-Z[Z] --&gt; Y[Y]
-Y &lt;-- a[T1]
-Y &lt;-- X[X]
-X --&gt; b[T2]
-X --&gt; c[T3]
-Z --&gt; d[T4]
+	Z[Z] --&gt; Y[Y]
+	Y --&gt; a[T1]
+    Y --&gt; X[X]
+    X --&gt; b[T2]
+    X --&gt; c[T3]
+    Z --&gt; d[T4]
 &lt;/div&gt;
 
 &lt;p&gt;아래와 같이 변환한다.&lt;/p&gt;
