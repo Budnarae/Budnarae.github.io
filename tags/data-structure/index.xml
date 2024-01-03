@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>budnarae archive</title>
-    <link>https://Budnarae.github.io/</link>
-    <description>Recent content on budnarae archive</description>
+    <title>data structure on budnarae archive</title>
+    <link>https://Budnarae.github.io/tags/data-structure/</link>
+    <description>Recent content in data structure on budnarae archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>budnarae1001@gmail.com (budnarae)</managingEditor>
     <webMaster>budnarae1001@gmail.com (budnarae)</webMaster>
-    <lastBuildDate>Mon, 11 Dec 2023 05:20:16 +0000</lastBuildDate><atom:link href="https://Budnarae.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jan 2024 23:04:21 +0000</lastBuildDate><atom:link href="https://Budnarae.github.io/tags/data-structure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>avl tree를 이용한 중복값 검사</title>
       <link>https://Budnarae.github.io/posts/avl_tree/</link>
@@ -47,30 +47,6 @@ A[16]  &amp;ndash;&amp;gt;  B[32]
 B  &amp;ndash;&amp;gt;  C[24]
 C  &amp;ndash;&amp;gt;  D[&amp;hellip;]
 D  &amp;ndash;&amp;gt;  E[16]&lt;/p&gt;
-&lt;hr&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>유용한 링크 모음</title>
-      <link>https://Budnarae.github.io/posts/useful-links/</link>
-      <pubDate>Mon, 11 Dec 2023 02:38:58 +0000</pubDate>
-      <author>budnarae1001@gmail.com (budnarae)</author>
-      <guid>https://Budnarae.github.io/posts/useful-links/</guid>
-      <description>&lt;p&gt;본 문서는 지속적으로 갱신됩니다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;hugo--블로그&#34;&gt;hugo &amp;amp;&amp;amp; 블로그&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;hugo 설치&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://selfinvestfriends.tistory.com/77&#34;&gt;hugo를 사용한 블로그 구축&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://stackedit.io/&#34;&gt;편리한 마크다운 웹 에디터&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://github.com/michaelneuper/hugo-texify3&#34;&gt;테마 - texify 3&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://github.com/michaelneuper/hugo-texify3/blob/master/exampleSite/hugo.toml&#34;&gt;texify 3 hugo.toml 예시&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;리눅스&#34;&gt;리눅스&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://ko.linux-console.net/?p=9839&#34;&gt;리눅스에 brew 설치하기&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://nayotutorial.tistory.com/132&#34;&gt;불필요한 권한 인증을 피하기 위한 ssh 접속&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 </description>
     </item>

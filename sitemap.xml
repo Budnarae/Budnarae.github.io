@@ -2,14 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Budnarae.github.io/</loc>
-    <lastmod>2023-12-11T05:31:52+00:00</lastmod>
+    <loc>https://Budnarae.github.io/tags/algorithm/</loc>
+    <lastmod>2024-01-02T23:04:21+00:00</lastmod>
+  </url><url>
+    <loc>https://Budnarae.github.io/posts/avl_tree/</loc>
+    <lastmod>2024-01-02T23:04:21+00:00</lastmod>
+  </url><url>
+    <loc>https://Budnarae.github.io/tags/data-structure/</loc>
+    <lastmod>2024-01-02T23:04:21+00:00</lastmod>
   </url><url>
     <loc>https://Budnarae.github.io/posts/</loc>
-    <lastmod>2023-12-11T04:20:57+00:00</lastmod>
+    <lastmod>2024-01-02T23:04:21+00:00</lastmod>
   </url><url>
     <loc>https://Budnarae.github.io/tags/</loc>
-    <lastmod>2023-12-11T04:20:57+00:00</lastmod>
+    <lastmod>2024-01-02T23:04:21+00:00</lastmod>
+  </url><url>
+    <loc>https://Budnarae.github.io/</loc>
+    <lastmod>2023-12-11T05:37:25+00:00</lastmod>
   </url><url>
     <loc>https://Budnarae.github.io/tags/updating/</loc>
     <lastmod>2023-12-11T04:20:57+00:00</lastmod>
