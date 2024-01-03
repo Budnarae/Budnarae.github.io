@@ -280,131 +280,134 @@ Y --&gt; a[T1]
 Y --&gt; b[T2]
 X --&gt; c[T3]
 Z --&gt; d[T4]
-```. 
-  
-오른쪽으로 치우친 경우 위의 경우를 대칭으로 적용한다.  
-이를 코드로 구현하면 아래와 같다.  
-  
 &lt;/div&gt;
 
-&lt;p&gt;void	left_case(t_node **tree)	//노드의 연결을 수정하여 트리의 균형을 맞춘다.
+&lt;p&gt;오른쪽으로 치우친 경우 위의 경우를 대칭으로 적용한다.&lt;br&gt;
+이를 코드로 구현하면 아래와 같다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;void	left_case(t_node **tree)	//노드의 연결을 수정하여 트리의 균형을 맞춘다.
 {
-t_node	*tmp1;
-t_node	*tmp2;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;if ((*tree)-&amp;gt;left != 0)	//LR인 경우 LL로 전환
-{
-	if ((*tree)-&amp;gt;left-&amp;gt;right != 0)
+	t_node	*tmp1;
+	t_node	*tmp2;
+
+	if ((*tree)-&amp;gt;left != 0)	//LR인 경우 LL로 전환
 	{
-		if ((*tree)-&amp;gt;left-&amp;gt;left == 0)
+		if ((*tree)-&amp;gt;left-&amp;gt;right != 0)
 		{
-			tmp1 = (*tree)-&amp;gt;left;
-			tmp2 = (*tree)-&amp;gt;left-&amp;gt;right;
-			(*tree)-&amp;gt;left = tmp2;
-			tmp2 = (*tree)-&amp;gt;left-&amp;gt;left;
-			(*tree)-&amp;gt;left-&amp;gt;left = tmp1;
-			(*tree)-&amp;gt;left-&amp;gt;left-&amp;gt;right = tmp2;
+			if ((*tree)-&amp;gt;left-&amp;gt;left == 0)
+			{
+				tmp1 = (*tree)-&amp;gt;left;
+				tmp2 = (*tree)-&amp;gt;left-&amp;gt;right;
+				(*tree)-&amp;gt;left = tmp2;
+				tmp2 = (*tree)-&amp;gt;left-&amp;gt;left;
+				(*tree)-&amp;gt;left-&amp;gt;left = tmp1;
+				(*tree)-&amp;gt;left-&amp;gt;left-&amp;gt;right = tmp2;
+			}
 		}
 	}
+	/*
+	LL 케이스 처리
+	*/
+	tmp1 = *tree;
+	tmp2 = (*tree)-&amp;gt;left;
+	*tree = tmp2;
+	tmp2 = (*tree)-&amp;gt;right;
+	(*tree)-&amp;gt;right = tmp1;
+	if ((*tree)-&amp;gt;right != 0)
+		(*tree)-&amp;gt;right-&amp;gt;left = tmp2;
 }
-/*
-LL 케이스 처리
-*/
-tmp1 = *tree;
-tmp2 = (*tree)-&amp;gt;left;
-*tree = tmp2;
-tmp2 = (*tree)-&amp;gt;right;
-(*tree)-&amp;gt;right = tmp1;
-if ((*tree)-&amp;gt;right != 0)
-	(*tree)-&amp;gt;right-&amp;gt;left = tmp2;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;}&lt;/p&gt;
-&lt;p&gt;void	right_case(t_node **tree)
+
+void	right_case(t_node **tree)
 {
-t_node	*tmp1;
-t_node	*tmp2;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;if ((*tree)-&amp;gt;right != 0)	//RL인 경우 RR로 전환
-{
-	if ((*tree)-&amp;gt;right-&amp;gt;left != 0)
+	t_node	*tmp1;
+	t_node	*tmp2;
+
+	if ((*tree)-&amp;gt;right != 0)	//RL인 경우 RR로 전환
 	{
-		if ((*tree)-&amp;gt;right-&amp;gt;right == 0)
+		if ((*tree)-&amp;gt;right-&amp;gt;left != 0)
 		{
-			tmp1 = (*tree)-&amp;gt;right;
-			tmp2 = (*tree)-&amp;gt;right-&amp;gt;left;
-			(*tree)-&amp;gt;right = tmp2;
-			tmp2 = (*tree)-&amp;gt;right-&amp;gt;right;
-			(*tree)-&amp;gt;right-&amp;gt;right = tmp1;
-			(*tree)-&amp;gt;right-&amp;gt;right-&amp;gt;left = tmp2;
+			if ((*tree)-&amp;gt;right-&amp;gt;right == 0)
+			{
+				tmp1 = (*tree)-&amp;gt;right;
+				tmp2 = (*tree)-&amp;gt;right-&amp;gt;left;
+				(*tree)-&amp;gt;right = tmp2;
+				tmp2 = (*tree)-&amp;gt;right-&amp;gt;right;
+				(*tree)-&amp;gt;right-&amp;gt;right = tmp1;
+				(*tree)-&amp;gt;right-&amp;gt;right-&amp;gt;left = tmp2;
+			}
 		}
 	}
+	/*
+	RR 케이스 처리
+	*/
+	tmp1 = *tree;
+	tmp2 = (*tree)-&amp;gt;right;
+	*tree = tmp2;
+	tmp2 = (*tree)-&amp;gt;left;
+	(*tree)-&amp;gt;left = tmp1;
+	if ((*tree)-&amp;gt;left != 0)
+		(*tree)-&amp;gt;left-&amp;gt;right = tmp2;
 }
-/*
-RR 케이스 처리
-*/
-tmp1 = *tree;
-tmp2 = (*tree)-&amp;gt;right;
-*tree = tmp2;
-tmp2 = (*tree)-&amp;gt;left;
-(*tree)-&amp;gt;left = tmp1;
-if ((*tree)-&amp;gt;left != 0)
-	(*tree)-&amp;gt;left-&amp;gt;right = tmp2;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;}&lt;/p&gt;
-&lt;p&gt;int	balance_tree(t_node **tree, int depht)	//트리의 균형을 맞추는 함수
+
+int	balance_tree(t_node **tree, int depht)	//트리의 균형을 맞추는 함수
 {
-int	balance_parameter;
-int	depht_l;	//왼쪽 트리의 깊이
-int	depht_r;	//오른쪽 트리의 깊이&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;if (*tree == 0)
-	return (depht);
-depht_l = balance_tree(&amp;amp;((*tree)-&amp;gt;left), depht + 1);	//자식 노드 -&amp;gt; 부모 노드 순으로 함수가 실행된다. 자식 노드로 재귀할 때 깊이를 1 더한다.
-depht_r = balance_tree(&amp;amp;((*tree)-&amp;gt;right), depht + 1);
-balance_parameter = depht_r - depht_l;	//balance_parameter의 절대값이 2 이상이면 균형을 맞춘다.
-if (balance_parameter &amp;lt; -1)	//왼쪽으로 치우친 경우
-{
-	left_case(tree);
-	return (depht_l - 1);	//깊이를 반환
-}
-else if (balance_parameter &amp;gt; 1)	//오른쪽으로 치우친 경우
-{
-	right_case(tree);
-	return (depht_r - 1);	//깊이를 반환
-}
-if (depht_l &amp;gt; depht_r)	//트리의 깊이가 2 이상 차이나지 않을 경우, 깊이가 더 깊은 쪽을 반환
-	return (depht_l);
-else
-	return (depht_r);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;}&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;int main(int argc, char **argv)
-{
-(중략)
-start = clock();&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;storage2 = 0;
-i = 0;
-while (i &amp;lt; argc - 1)
-{
-	func_returned = search_tree(&amp;amp;storage2, atoi(argv[i + 1]));
-	if (func_returned == -1)
+	int	balance_parameter;
+	int	depht_l;	//왼쪽 트리의 깊이
+	int	depht_r;	//오른쪽 트리의 깊이
+
+	if (*tree == 0)
+		return (depht);
+	/*
+	자식 노드 -&amp;gt; 부모 노드 순으로 함수가 실행된다 = 트리의 아랫부분 부터 균형을 맞추며 위로 올라간다. 
+	자식 노드로 재귀할 때 깊이를 1 더한다.
+	*/
+	depht_l = balance_tree(&amp;amp;((*tree)-&amp;gt;left), depht + 1);
+	depht_r = balance_tree(&amp;amp;((*tree)-&amp;gt;right), depht + 1);
+	balance_parameter = depht_r - depht_l;	//balance_parameter의 절대값이 2 이상이면 균형을 맞춘다.
+	if (balance_parameter &amp;lt; -1)	//왼쪽으로 치우친 경우
 	{
-		free_tree(storage2);
-		return (0);
+		left_case(tree);
+		return (depht_l - 1);	//깊이를 반환
 	}
-	else if (func_returned == 1)
+	else if (balance_parameter &amp;gt; 1)	//오른쪽으로 치우친 경우
 	{
-		printf(&amp;quot;found dup : %d\n&amp;quot;, atoi(argv[i + 1]));
-		break;
+		right_case(tree);
+		return (depht_r - 1);	//깊이를 반환
 	}
-	if (i % 50 == 0)	//50번에 한번씩 트리를 정렬
-		balance_tree(&amp;amp;storage2, 0);
-	i++;
+	if (depht_l &amp;gt; depht_r)	//트리의 깊이가 2 이상 차이나지 않을 경우, 깊이가 더 깊은 쪽을 반환
+		return (depht_l);
+	else
+		return (depht_r);
 }
-free_tree(storage2);
-end = clock();
-printf(&amp;quot;method 2 runtime : %f\n&amp;quot;, (double)(end - start) / CLOCKS_PER_SEC);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;}&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(출력결과)    
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;//길이 100짜리 정렬된 배열을 입력했을 때
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int main(int argc, char **argv)
+{
+	(중략)
+	start = clock();
+
+	storage2 = 0;
+	i = 0;
+	while (i &amp;lt; argc - 1)
+	{
+		func_returned = search_tree(&amp;amp;storage2, atoi(argv[i + 1]));
+		if (func_returned == -1)
+		{
+			free_tree(storage2);
+			return (0);
+		}
+		else if (func_returned == 1)
+		{
+			printf(&amp;#34;found dup : %d\n&amp;#34;, atoi(argv[i + 1]));
+			break;
+		}
+		if (i % 50 == 0)	//50번에 한번씩 트리를 정렬
+			balance_tree(&amp;amp;storage2, 0);
+		i++;
+	}
+	free_tree(storage2);
+	end = clock();
+	printf(&amp;#34;method 2 runtime : %f\n&amp;#34;, (double)(end - start) / CLOCKS_PER_SEC);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;(출력결과)&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;//길이 100짜리 정렬된 배열을 입력했을 때
 found dup : 100
 method 1 runtime : 0.000039
 found dup : 100
@@ -433,11 +436,10 @@ method 2 runtime : 0.000195
 found dup : 8469
 method 1 runtime : 0.000941
 found dup : 8469
-method 2 runtime : 0.000362&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-.&#34; data-lang=&#34;.&#34;&gt;  
-balance_tree 함수가 실행시간을 많이 잡아먹기 때문에 50번에 한 번씩만 정렬하는 식으로 타협하여 구현하였다.  
-입력이 정렬된 상태로 들어올 때, 섞여서 들어올 때 모두 방법 1보다 비슷하거나 우월한 결과를 보인다.  
-&lt;/code&gt;&lt;/pre&gt;</description>
+method 2 runtime : 0.000362
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;balance_tree 함수가 실행시간을 많이 잡아먹기 때문에 50번에 한 번씩만 정렬하는 식으로 타협하여 구현하였다.&lt;br&gt;
+입력이 정렬된 상태로 들어올 때, 섞여서 들어올 때 모두 방법 1보다 비슷하거나 우월한 결과를 보인다.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
