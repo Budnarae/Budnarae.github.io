@@ -262,10 +262,10 @@ style X fill:#89cff0
 style Y fill:#89cff0
 style Z fill:#89cff0
 Z[Z] --&gt; Y[Y]
-Y --&gt; a[T1]
 Y --&gt; X[X]
 X --&gt; b[T2]
 X --&gt; c[T3]
+Y --&gt; a[T1]
 Z --&gt; d[Y4]
 &lt;/div&gt;
 
