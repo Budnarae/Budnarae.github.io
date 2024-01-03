@@ -32,7 +32,7 @@
 &lt;p&gt;가장 간단하게 떠올릴 수 있는 방법은 모든 데이터를 서로 비교하는 것이다.&lt;/p&gt;
 &lt;div class=&#34;mermaid&#34;&gt;graph LR
 	style A fill:#89cff0
-	style B fill:#acb1d6
+	style B fill:#ffe599
 	A[16]  --&gt;  B[32]
 	B  --&gt;  C[24]
 	C  --&gt;  D[...]
@@ -41,7 +41,7 @@
 
 &lt;div class=&#34;mermaid&#34;&gt;graph LR
 	style A fill:#89cff0
-	style C fill:#acb1d6
+	style C fill:#ffe599
 	A[16]  --&gt;  B[32]
 	B  --&gt;  C[24]
 	C  --&gt;  D[...]
@@ -59,7 +59,27 @@
 
 &lt;p&gt;그러나 이와 같은 방법은 O(n^2)의 시간 복잡도를 갖기 때문에 최적화에 불리하다.&lt;br&gt;
 내 주변의 동료들은 최적화를 포기하고 위의 방법을 사용하거나, 퀵 정렬을 이용해 데이터를 정렬한 후 i의 값을 1씩 늘리며 i, i + 1번째 원소를 서로 비교하는 방법을 사용하였다.&lt;br&gt;
-필자는 처음에는 이진탐색트리를 구현하였다.&lt;/p&gt;
+필자는 처음에는 이진탐색트리를 구현하였다.
+이진탐색트리는 자식이 2개인 tree로 아래와 같은 구조를 가진다.&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;graph TD
+    A[5] --&gt; |부모보다 작으면 왼쪽으로 간다| B[4]
+    A --&gt; |부모보다 크면 오른쪽으로 간다| C[8]
+&lt;/div&gt;
+
+&lt;p&gt;평균적으로, 이진탐색트리는 모든 데이터와 값을 대조할 필요가 없으므로 효율적인 알고리즘이다.&lt;/p&gt;
+&lt;p&gt;(9를 검색하는 경우)&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;graph TD
+    style A fill:#89cff0
+    style C fill:#89cff0
+    style F fill:#89cff0
+    A[5] -&gt; B[3]
+    A -&gt; |5보다 크다| C[11]
+    B -&gt; D[1]
+    B -&gt; E[4]
+    C -&gt; |11보다 작다| F[9]
+    C -&gt; G[13]
+&lt;/div&gt;
+
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int main(int argc, char ** argv)
 {
 	double start;       //검색 시작 시간

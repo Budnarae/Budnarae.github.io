@@ -64,7 +64,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Budnarae.github.io/posts/avl_tree/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-01-02T23:04:21+00:00" />
-<meta property="article:modified_time" content="2024-01-03T02:07:34+00:00" /><meta property="og:site_name" content="budnarae archive" />
+<meta property="article:modified_time" content="2024-01-03T02:11:08+00:00" /><meta property="og:site_name" content="budnarae archive" />
 
 
 
@@ -75,8 +75,8 @@
   
   <meta itemprop="name" content="avl tree를 이용한 중복값 검사">
 <meta itemprop="description" content="avl tree를 사용한 중복 검사 개요 본문은 보다 효율적으로 중복 여부를 검사하기 위해 고민한 경험을 공유하기 위해 작성되었다. 이 주제를 고민하게 된 계기는 42 서울의"><meta itemprop="datePublished" content="2024-01-02T23:04:21+00:00" />
-<meta itemprop="dateModified" content="2024-01-03T02:07:34+00:00" />
-<meta itemprop="wordCount" content="869">
+<meta itemprop="dateModified" content="2024-01-03T02:11:08+00:00" />
+<meta itemprop="wordCount" content="1033">
 <meta itemprop="keywords" content="data structure,algorithm," />
 
   
@@ -177,7 +177,7 @@
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          869 words
+          1033 words
         </span>
       
       
@@ -190,7 +190,7 @@
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~2 mins
+          ~3 mins
         </span>
       
     </div>
@@ -243,7 +243,7 @@
 <p>가장 간단하게 떠올릴 수 있는 방법은 모든 데이터를 서로 비교하는 것이다.</p>
 <div class="mermaid">graph LR
 	style A fill:#89cff0
-	style B fill:#acb1d6
+	style B fill:#ffe599
 	A[16]  -->  B[32]
 	B  -->  C[24]
 	C  -->  D[...]
@@ -252,7 +252,7 @@
 
 <div class="mermaid">graph LR
 	style A fill:#89cff0
-	style C fill:#acb1d6
+	style C fill:#ffe599
 	A[16]  -->  B[32]
 	B  -->  C[24]
 	C  -->  D[...]
@@ -270,7 +270,27 @@
 
 <p>그러나 이와 같은 방법은 O(n^2)의 시간 복잡도를 갖기 때문에 최적화에 불리하다.<br>
 내 주변의 동료들은 최적화를 포기하고 위의 방법을 사용하거나, 퀵 정렬을 이용해 데이터를 정렬한 후 i의 값을 1씩 늘리며 i, i + 1번째 원소를 서로 비교하는 방법을 사용하였다.<br>
-필자는 처음에는 이진탐색트리를 구현하였다.</p>
+필자는 처음에는 이진탐색트리를 구현하였다.
+이진탐색트리는 자식이 2개인 tree로 아래와 같은 구조를 가진다.</p>
+<div class="mermaid">graph TD
+    A[5] --> |부모보다 작으면 왼쪽으로 간다| B[4]
+    A --> |부모보다 크면 오른쪽으로 간다| C[8]
+</div>
+
+<p>평균적으로, 이진탐색트리는 모든 데이터와 값을 대조할 필요가 없으므로 효율적인 알고리즘이다.</p>
+<p>(9를 검색하는 경우)</p>
+<div class="mermaid">graph TD
+    style A fill:#89cff0
+    style C fill:#89cff0
+    style F fill:#89cff0
+    A[5] -> B[3]
+    A -> |5보다 크다| C[11]
+    B -> D[1]
+    B -> E[4]
+    C -> |11보다 작다| F[9]
+    C -> G[13]
+</div>
+
 <pre tabindex="0"><code>int main(int argc, char ** argv)
 {
 	double start;       //검색 시작 시간
