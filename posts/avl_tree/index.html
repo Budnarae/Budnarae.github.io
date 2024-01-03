@@ -64,7 +64,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Budnarae.github.io/posts/avl_tree/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-01-02T23:04:21+00:00" />
-<meta property="article:modified_time" content="2024-01-03T04:54:41+00:00" /><meta property="og:site_name" content="budnarae archive" />
+<meta property="article:modified_time" content="2024-01-03T04:59:41+00:00" /><meta property="og:site_name" content="budnarae archive" />
 
 
 
@@ -75,8 +75,8 @@
   
   <meta itemprop="name" content="avl tree를 이용한 중복값 검사">
 <meta itemprop="description" content="avl 트리를 사용한 중복 검사 개요 본문은 보다 효율적으로 중복 여부를 검사하기 위해 고민한 경험을 공유하기 위해 작성되었다. 이 주제를 고민하게 된 계기는 42 서울의 2서"><meta itemprop="datePublished" content="2024-01-02T23:04:21+00:00" />
-<meta itemprop="dateModified" content="2024-01-03T04:54:41+00:00" />
-<meta itemprop="wordCount" content="2808">
+<meta itemprop="dateModified" content="2024-01-03T04:59:41+00:00" />
+<meta itemprop="wordCount" content="2816">
 <meta itemprop="keywords" content="data structure,algorithm," />
 
   
@@ -177,7 +177,7 @@
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          2808 words
+          2816 words
         </span>
       
       
@@ -427,7 +427,7 @@ method 2 runtime : 0.000236
 <p>그러나 이진 탐색 트리는 한 가지 단점을 갖는다.<br>
 정렬된 배열이 입력으로 들어왔을 때 트리가 아래와 같은 모양으로 생성된다는 점이다.</p>
 <div class="mermaid">graph TD
-A[1] --> B[2]
+A[1] --> |부모보다 크다| B[2]
 B --> |부모보다 크다| C[3]
 C --> |부모보다 크다| D[4]
 D --> |부모보다 크다| E[5]
