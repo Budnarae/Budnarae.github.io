@@ -28,7 +28,7 @@
 &lt;p&gt;가장 간단하게 떠올릴 수 있는 방법은 모든 데이터를 서로 비교하는 것이다.&lt;/p&gt;
 &lt;div class=&#34;mermaid&#34;&gt;flowchart  LR
 	style  A  fill:#89cff0
-	style  B  fill:#af99
+	style  B  fill:#acb1d6
 	A[16]  --&gt;  B[32]
 	B  --&gt;  C[24]
 	C  --&gt;  D[...]
@@ -37,7 +37,7 @@
 
 &lt;div class=&#34;mermaid&#34;&gt;flowchart  LR
 	style  A  fill:#89cff0
-	style  C  fill:#af99
+	style  C  fill:#acb1d6
 	A[16]  --&gt;  B[32]
 	B  --&gt;  C[24]
 	C  --&gt;  D[...]
