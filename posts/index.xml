@@ -33,16 +33,18 @@
 	B  --&gt;  C[24]
 	C  --&gt;  D[...]
 	D  --&gt;  E[16]
+&lt;/div&gt;
 
-flowchart  LR
+&lt;div class=&#34;mermaid&#34;&gt;flowchart  LR
 	style  A  fill:#89cff0
 	style  C  fill:#af99
 	A[16]  --&gt;  B[32]
 	B  --&gt;  C[24]
 	C  --&gt;  D[...]
 	D  --&gt;  E[16]
+&lt;/div&gt;
 
-flowchart  LR
+&lt;div class=&#34;mermaid&#34;&gt;flowchart  LR
 	style  A  fill:#89cff0
 	style  E  fill:#ff91af
 	A[16]  --&gt;  B[32]
