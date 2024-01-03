@@ -64,7 +64,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Budnarae.github.io/posts/avl_tree/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-01-02T23:04:21+00:00" />
-<meta property="article:modified_time" content="2024-01-03T03:18:48+00:00" /><meta property="og:site_name" content="budnarae archive" />
+<meta property="article:modified_time" content="2024-01-03T03:54:47+00:00" /><meta property="og:site_name" content="budnarae archive" />
 
 
 
@@ -75,8 +75,8 @@
   
   <meta itemprop="name" content="avl tree를 이용한 중복값 검사">
 <meta itemprop="description" content="avl 트리를 사용한 중복 검사 개요 본문은 보다 효율적으로 중복 여부를 검사하기 위해 고민한 경험을 공유하기 위해 작성되었다. 이 주제를 고민하게 된 계기는 42 서울의 2서"><meta itemprop="datePublished" content="2024-01-02T23:04:21+00:00" />
-<meta itemprop="dateModified" content="2024-01-03T03:18:48+00:00" />
-<meta itemprop="wordCount" content="1645">
+<meta itemprop="dateModified" content="2024-01-03T03:54:47+00:00" />
+<meta itemprop="wordCount" content="2745">
 <meta itemprop="keywords" content="data structure,algorithm," />
 
   
@@ -177,7 +177,7 @@
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          1645 words
+          2745 words
         </span>
       
       
@@ -190,7 +190,7 @@
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~4 mins
+          ~6 mins
         </span>
       
     </div>
@@ -302,6 +302,16 @@
 	struct s_node *right;
 	struct s_node *left;
 }	t_node;
+
+void free_tree(t_node *tree)	//트리의 위에서 아래로 내려가면서 재귀적으로 할당을 해제
+{
+	if (tree -&gt; right)
+		free_tree(tree -&gt; right);
+	if (tree -&gt; left)
+		free_tree(tree -&gt; left);
+	if (tree)
+		free(tree);
+}
 
 int search_tree(t_node **tree, int s)
 {
@@ -424,8 +434,14 @@ D --> |부모보다 크다| E[5]
 E --> |부모보다 크다| F[6]
 </div>
 
-<p>결과적으로 방법 1과 다를 바 없는 시간복잡도를 갖는다.<br>
-이를 해결하기 위해 사용하는 방법이 avl 트리이다. avl 트리란 왼쪽과 오른쪽의 깊이가 2 이상 차이날 때 아래와 같이 자동으로 균형을 회복하는 기능을 가진 트리이다.</p>
+<p>결과적으로 방법 1과 다를 바 없는 시간복잡도를 가지며, malloc과 free가 포함되기 때문에 오히려 느려진다.</p>
+<p>(출력결과)</p>
+<pre tabindex="0"><code>\\길이 500짜리 정렬된 배열을 입력했을 때
+found dup : 500
+method 1 runtime : 0.000257
+found dup : 500
+method 2 runtime : 0.000650
+</code></pre><p>이를 해결하기 위해 사용하는 방법이 avl 트리이다. avl 트리란 왼쪽과 오른쪽의 깊이가 2 이상 차이날 때 아래와 같이 자동으로 균형을 회복하는 기능을 가진 트리이다.</p>
 <p>(왼쪽으로 트리가 기울어진 경우)
 (LL 케이스)</p>
 <div class="mermaid">graph TD
@@ -453,7 +469,188 @@ Z --> c[T3]
 Z --> d[T4]
 </div>
 
+<p>(LR 케이스의 경우 LL 케이스로 변환 후 처리한다.)</p>
+<div class="mermaid">graph TD
+style X fill:#89cff0
+style Y fill:#89cff0
+style Z fill:#89cff0
+Z[Z] --> Y[Y]
+Y --> a[T1]
+Y --> X[X]
+X --> b[T2]
+X --> c[T3]
+Z --> d[Y4]
+</div>
 
+<p>아래와 같이 변환한다.</p>
+<div class="mermaid">graph TD
+style X fill:#89cff0
+style Y fill:#89cff0
+style Z fill:#89cff0
+Z[Z] --> X[X]
+X --> Y[Y]
+Y --> a[T1]
+Y --> b[T2]
+X --> c[T3]
+Z --> d[T4]
+```. 
+  
+오른쪽으로 치우친 경우 위의 경우를 대칭으로 적용한다.  
+이를 코드로 구현하면 아래와 같다.  
+  
+</div>
+
+<p>void	left_case(t_node **tree)	//노드의 연결을 수정하여 트리의 균형을 맞춘다.
+{
+t_node	*tmp1;
+t_node	*tmp2;</p>
+<pre><code>if ((*tree)-&gt;left != 0)	//LR인 경우 LL로 전환
+{
+	if ((*tree)-&gt;left-&gt;right != 0)
+	{
+		if ((*tree)-&gt;left-&gt;left == 0)
+		{
+			tmp1 = (*tree)-&gt;left;
+			tmp2 = (*tree)-&gt;left-&gt;right;
+			(*tree)-&gt;left = tmp2;
+			tmp2 = (*tree)-&gt;left-&gt;left;
+			(*tree)-&gt;left-&gt;left = tmp1;
+			(*tree)-&gt;left-&gt;left-&gt;right = tmp2;
+		}
+	}
+}
+/*
+LL 케이스 처리
+*/
+tmp1 = *tree;
+tmp2 = (*tree)-&gt;left;
+*tree = tmp2;
+tmp2 = (*tree)-&gt;right;
+(*tree)-&gt;right = tmp1;
+if ((*tree)-&gt;right != 0)
+	(*tree)-&gt;right-&gt;left = tmp2;
+</code></pre>
+<p>}</p>
+<p>void	right_case(t_node **tree)
+{
+t_node	*tmp1;
+t_node	*tmp2;</p>
+<pre><code>if ((*tree)-&gt;right != 0)	//RL인 경우 RR로 전환
+{
+	if ((*tree)-&gt;right-&gt;left != 0)
+	{
+		if ((*tree)-&gt;right-&gt;right == 0)
+		{
+			tmp1 = (*tree)-&gt;right;
+			tmp2 = (*tree)-&gt;right-&gt;left;
+			(*tree)-&gt;right = tmp2;
+			tmp2 = (*tree)-&gt;right-&gt;right;
+			(*tree)-&gt;right-&gt;right = tmp1;
+			(*tree)-&gt;right-&gt;right-&gt;left = tmp2;
+		}
+	}
+}
+/*
+RR 케이스 처리
+*/
+tmp1 = *tree;
+tmp2 = (*tree)-&gt;right;
+*tree = tmp2;
+tmp2 = (*tree)-&gt;left;
+(*tree)-&gt;left = tmp1;
+if ((*tree)-&gt;left != 0)
+	(*tree)-&gt;left-&gt;right = tmp2;
+</code></pre>
+<p>}</p>
+<p>int	balance_tree(t_node **tree, int depht)	//트리의 균형을 맞추는 함수
+{
+int	balance_parameter;
+int	depht_l;	//왼쪽 트리의 깊이
+int	depht_r;	//오른쪽 트리의 깊이</p>
+<pre><code>if (*tree == 0)
+	return (depht);
+depht_l = balance_tree(&amp;((*tree)-&gt;left), depht + 1);	//자식 노드 -&gt; 부모 노드 순으로 함수가 실행된다. 자식 노드로 재귀할 때 깊이를 1 더한다.
+depht_r = balance_tree(&amp;((*tree)-&gt;right), depht + 1);
+balance_parameter = depht_r - depht_l;	//balance_parameter의 절대값이 2 이상이면 균형을 맞춘다.
+if (balance_parameter &lt; -1)	//왼쪽으로 치우친 경우
+{
+	left_case(tree);
+	return (depht_l - 1);	//깊이를 반환
+}
+else if (balance_parameter &gt; 1)	//오른쪽으로 치우친 경우
+{
+	right_case(tree);
+	return (depht_r - 1);	//깊이를 반환
+}
+if (depht_l &gt; depht_r)	//트리의 깊이가 2 이상 차이나지 않을 경우, 깊이가 더 깊은 쪽을 반환
+	return (depht_l);
+else
+	return (depht_r);
+</code></pre>
+<p>}</p>
+<pre tabindex="0"><code></code></pre><p>int main(int argc, char **argv)
+{
+(중략)
+start = clock();</p>
+<pre><code>storage2 = 0;
+i = 0;
+while (i &lt; argc - 1)
+{
+	func_returned = search_tree(&amp;storage2, atoi(argv[i + 1]));
+	if (func_returned == -1)
+	{
+		free_tree(storage2);
+		return (0);
+	}
+	else if (func_returned == 1)
+	{
+		printf(&quot;found dup : %d\n&quot;, atoi(argv[i + 1]));
+		break;
+	}
+	if (i % 50 == 0)	//50번에 한번씩 트리를 정렬
+		balance_tree(&amp;storage2, 0);
+	i++;
+}
+free_tree(storage2);
+end = clock();
+printf(&quot;method 2 runtime : %f\n&quot;, (double)(end - start) / CLOCKS_PER_SEC);
+</code></pre>
+<p>}</p>
+<pre tabindex="0"><code>(출력결과)    
+</code></pre><p>//길이 100짜리 정렬된 배열을 입력했을 때
+found dup : 100
+method 1 runtime : 0.000039
+found dup : 100
+method 2 runtime : 0.000042
+//길이 500짜리 정렬된 배열을 입력했을 때
+found dup : 500
+method 1 runtime : 0.000285
+found dup : 500
+method 2 runtime : 0.000254
+//길이 1000짜리 정렬된 배열을 입력했을 때
+found dup : 1000
+method 1 runtime : 0.000936
+found dup : 1000
+method 2 runtime : 0.000386
+//길이 100짜리 난수 배열을 입력했을 때
+found dup : 6202
+method 1 runtime : 0.000038
+found dup : 6202
+method 2 runtime : 0.000039
+//길이 500짜리 난수 배열을 입력했을 때
+found dup : 8144
+method 1 runtime : 0.000252
+found dup : 8144
+method 2 runtime : 0.000195
+//길이 1000짜리 난수 배열을 입력했을 때
+found dup : 8469
+method 1 runtime : 0.000941
+found dup : 8469
+method 2 runtime : 0.000362</p>
+<pre tabindex="0"><code class="language-." data-lang=".">  
+balance_tree 함수가 실행시간을 많이 잡아먹기 때문에 50번에 한 번씩만 정렬하는 식으로 타협하여 구현하였다.  
+입력이 정렬된 상태로 들어올 때, 섞여서 들어올 때 모두 방법 1보다 비슷하거나 우월한 결과를 보인다.  
+</code></pre>
     
   </article>
 
