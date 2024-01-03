@@ -72,12 +72,12 @@
     style A fill:#89cff0
     style C fill:#89cff0
     style F fill:#89cff0
-    A[5] -&gt; B[3]
-    A -&gt; |5보다 크다| C[11]
-    B -&gt; D[1]
-    B -&gt; E[4]
-    C -&gt; |11보다 작다| F[9]
-    C -&gt; G[13]
+    A[5] --&gt; B[3]
+    A --&gt; |5보다 크다| C[11]
+    B --&gt; D[1]
+    B --&gt; E[4]
+    C --&gt; |11보다 작다| F[9]
+    C --&gt; G[13]
 &lt;/div&gt;
 
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int main(int argc, char ** argv)
