@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>algorithm on budnarae archive</title>
-    <link>https://Budnarae.github.io/tags/algorithm/</link>
-    <description>Recent content in algorithm on budnarae archive</description>
+    <title>42seoul on budnarae archive</title>
+    <link>https://Budnarae.github.io/tags/42seoul/</link>
+    <description>Recent content in 42seoul on budnarae archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>budnarae1001@gmail.com (budnarae)</managingEditor>
     <webMaster>budnarae1001@gmail.com (budnarae)</webMaster>
-    <lastBuildDate>Tue, 02 Jan 2024 23:04:21 +0000</lastBuildDate><atom:link href="https://Budnarae.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jan 2024 23:04:21 +0000</lastBuildDate><atom:link href="https://Budnarae.github.io/tags/42seoul/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>avl tree를 이용한 중복 검사</title>
       <link>https://Budnarae.github.io/posts/avl_tree/</link>
