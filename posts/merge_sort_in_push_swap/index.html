@@ -64,7 +64,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Budnarae.github.io/posts/merge_sort_in_push_swap/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-02-21T02:23:56+00:00" />
-<meta property="article:modified_time" content="2024-02-21T06:21:53+00:00" /><meta property="og:site_name" content="budnarae archive" />
+<meta property="article:modified_time" content="2024-02-21T06:38:06+00:00" /><meta property="og:site_name" content="budnarae archive" />
 
 
 
@@ -75,7 +75,7 @@
   
   <meta itemprop="name" content="병합 정렬을 사용하여 push_swap 문제 해결하기">
 <meta itemprop="description" content="병합 정렬을 사용하여 push_swap 문제 해결하기 개요 스택을 만들었으니 이제 정렬을 구현할 차례이다. 42_서울에는 그동안 push_swap 과제를 해결한 수많은 사람들이 축척한 다양한 문"><meta itemprop="datePublished" content="2024-02-21T02:23:56+00:00" />
-<meta itemprop="dateModified" content="2024-02-21T06:21:53+00:00" />
+<meta itemprop="dateModified" content="2024-02-21T06:38:06+00:00" />
 <meta itemprop="wordCount" content="2115">
 <meta itemprop="keywords" content="C_language,data structure,algorithm,42seoul,push_swap," />
 
@@ -234,16 +234,12 @@
   
   <article class="content numbered-subtitles">
     
-    <hr>
-<h2 id="병합-정렬을-사용하여-push_swap-문제-해결하기">병합 정렬을 사용하여 push_swap 문제 해결하기</h2>
-<hr>
+    <h2 id="병합-정렬을-사용하여-push_swap-문제-해결하기">병합 정렬을 사용하여 push_swap 문제 해결하기</h2>
 <h3 id="개요">개요</h3>
-<p><a href="">스택을 만들었으니</a> 이제 정렬을 구현할 차례이다. 42_서울에는 그동안 push_swap 과제를 해결한 수많은 사람들이 축척한 다양한 문제 해결법들이 존재한다. 필자 외 다른 사람들의 해결법을 보고 싶다면 42 서울의 정보 아카이빙 동아리 <a href="https://80000coding.oopy.io/aboutus">팔만코딩경</a>을 참고하거나, 구글링으로 필자처럼 개인 블로그에 정리한 카뎃들의 글을 참고하는 것을 추천한다.</p>
+<p><a href="https://budnarae.github.io/posts/magical_stack/">스택을 만들었으니</a> 이제 정렬을 구현할 차례이다. 42_서울에는 그동안 push_swap 과제를 해결한 수많은 사람들이 축척한 다양한 문제 해결법들이 존재한다. 필자 외 다른 사람들의 해결법을 보고 싶다면 42 서울의 정보 아카이빙 동아리 <a href="https://80000coding.oopy.io/aboutus">팔만코딩경</a>을 참고하거나, 구글링으로 필자처럼 개인 블로그에 정리한 카뎃들의 글을 참고하는 것을 추천한다.</p>
 <p>push_swap 과제에서 정렬하는 것 만큼이나 중요한 것은 <em><strong>가능한 적은 연산</strong></em>(sa, sb, ra 등등)을 사용하여 효울적으로 정렬을 수행하는 것이다. 100개의 인자가 들어왔을 때 연산 700번 이내, 이내, 500개의 인자가 들어왔을 때 5000번 이내로 정렬을 수행해야 만점을 받을 수 있다.</p>
 <p>필자는 병합 정렬의 매커니즘을 사용하여 과제를 해결하였다.</p>
-<hr>
 <h3 id="문제해결">문제해결</h3>
-<hr>
 <p><img src="https://github.com/Budnarae/budnarae_archive/blob/main/content/posts/img/push_swap_1.drawio.png?raw=true" alt="1"></p>
 <p>위와 같은 상황을 가정해보자. stack a에 데이터의 초기값, 그러니까 무작위로 뒤섞인 정수들이 차곡차곡 쌓인 상황이다. 정렬이 시작되기 전이어서 stack b는 비어있다. 우리는 앞서 언급한 연산자들을 적절히 활용하여, 데이터를 스택의 꼭대기나 바닥으로 보내기도 하고, stack a와 b를 왔다갔다 하기도 하면서 stack의 top으로 갈수록 값이 작아지도록 정렬해야한다. 그리고 그 정렬은 최종적으로 b 가 아닌 a에서 이루어져야 한다.</p>
 <p>편의상 stack의 맨 위의 노드를 top, top 바로 아래 노드를 mid,  stack의 맨 바닥의 노드를 bot이라 부르기로 한다. 연산 횟수를 줄이려면, 노드를 stack a에서 b로, 또는 b에서 a로 옮길 때 연산의 횟수가 적을수록 좋다. 이미지의 설명과 같이, top, mid, bot 노드는 2회 이내의 연산으로 스택 간 이동이 가능하다. 따라서 스택 간 이동은 top, mid, bod 노드에 한하여 수행하고, 나머지는 배제하기로 한다.</p>
@@ -271,9 +267,7 @@
 <p>(두 번째 병합 후)<br>
 <img src="https://github.com/Budnarae/budnarae_archive/blob/main/content/posts/img/push_swap_5.drawio.png?raw=true" alt="5"></p>
 <p>위 예시에선 데이터의 개수가 적어 stack a, b를 한 번 왕복한 것만으로 정렬이 완료되었지만 데이터의 개수가 많을 때는 스택 간 왕복을 여러 번 수행해야 한다. a -&gt; b 방향으로 병합을 수행할 때는 a의 top과 b의 bot 중 더 큰 값을 b의 top으로 옮기는 방법으로 병합시키면 된다.</p>
-<hr>
 <h3 id="아직-부족하다-연산-개수-최적화하기">아직 부족하다. 연산 개수 최적화하기</h3>
-<hr>
 <p>위의 방식을 적용하면 정렬 자체는 정상적으로 수행되지만 만점을 받기에는 부족하다. 연산을 더 줄이려면 어떻게 해야할까? 이 알고리즘에서 수행되는 연산은 아래와 같이 분류할 수 있다.</p>
 <ol>
 <li>다른 스택으로 최소 정렬 단위들의 일부를 옮기는 연산.</li>
@@ -333,7 +327,7 @@
     <a class="link" href="https://Budnarae.github.io/posts/magical_stack/" title="원형 이중 연결 리스트를 이용한 마법의 스택 구현">← prev</a>
     
     
-    <a></a>
+    <a class="link" href="https://Budnarae.github.io/posts/pipex/" title="쉘의 파이프를 구현하는 과제, Pipex">next →</a>
     
   </div>
   <div class="comment">
