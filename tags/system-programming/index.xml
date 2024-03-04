@@ -113,7 +113,7 @@ void	pipex(int argc, char ***args, char **envp)
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;번외-execve가-ls를-usrbinls와-동일하게-인식하게-하기&#34;&gt;번외. execve가 ls를 usr/bin/ls와 동일하게 인식하게 하기&lt;/h3&gt;
 &lt;p&gt;앞선 내용만으로 Pipex 과제의 기본적인 사항들을 성공적으로 구현하는 데에 성공하였다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;./pipex infile &amp;#34;usr/bin/ls -l&amp;#34; &amp;#34;usr/bin/wc -l&amp;#34; outfile
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;그러나 과제는 아래와 같은 입력도 처리할 수 있어야 한다. 하지만 execve 함수는 현재 디렉도리의 파일이 아닌 이상 절대 경로로만 파일명을 받을 수 있다.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;그러나 과제는 아래와 같은 입력도 처리할 수 있어야 한다. 하지만 execve 함수는 현재 디렉토리의 파일이 아닌 이상 절대 경로로만 파일명을 받을 수 있다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;./pipex infile &amp;#34;ls -l&amp;#34; &amp;#34;wc -l&amp;#34; outfile
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;https://www.joinc.co.kr/w/man/2/access&#34;&gt;access&lt;/a&gt;를 이용하여 이를 해결할 수 있다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#include &amp;lt;unistd.h&amp;gt;
