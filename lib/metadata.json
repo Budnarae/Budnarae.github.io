@@ -1,12 +1,279 @@
 {
   "vaultName": "obsidian",
-  "lastExport": 1742629114166,
+  "lastExport": 1742629431779,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
+    "재료/미사용 template 저장 폴더/코드 블록 html.md",
+    "재료/미사용 template 저장 폴더/코드 블록 javascript.md",
+    "재료/미사용 template 저장 폴더/js 문서 임시 템플릿.md",
+    "재료/img/42 innercircle 정리/FdF.png",
+    "재료/img/가상 함수 테이블/가상 함수 테이블.png",
+    "재료/img/다중 접속 서버 구현 방식/다중 접속 서버 구현 방식.jpg",
+    "재료/img/도커/도커의 구조.jpeg",
+    "재료/img/도커/윈도우에서의 도커의 구조.png",
+    "재료/img/도커 네트워크/도커 네트워크 구조.png",
+    "재료/img/멀티 프로세스 기반 서버/tcp 입출력 루틴 분할.png",
+    "재료/img/얕은 복사, 깊은 복사/얕은 복사.png",
+    "재료/img/얕은 복사, 깊은 복사/얕은 복사 깊은 복사.png",
+    "재료/img/연산자 오버로딩/디폴트 대입 연산자의 동작(얕은 복사).png",
+    "재료/img/컨테이너/컨테이너의 구조.png",
+    "재료/img/accept/accept의 기능.png",
+    "재료/img/Half-close/소켓을 기반으로 생성되는 두 개의 스트림.png",
+    "재료/img/Half-close/일방적 연결종료.png",
+    "재료/img/Half-close/파일 전송 데이터 흐름도.png",
+    "재료/img/listen/연결 요청 대기 큐.png",
+    "재료/img/NetPractice/NetPractice_lv1_before.png",
+    "재료/img/NetPractice/NetPractice_lv2_after.png",
+    "재료/img/NetPractice/NetPractice_lv2_before.png",
+    "재료/img/NetPractice/NetPractice_lv3_after.png",
+    "재료/img/NetPractice/NetPractice_lv3_before.png",
+    "재료/img/NetPractice/NetPractice_lv4_after.png",
+    "재료/img/NetPractice/NetPractice_lv4_before.png",
+    "재료/img/NetPractice/NetPractice_lv5_after.png",
+    "재료/img/NetPractice/NetPractice_lv5_before.png",
+    "재료/img/NetPractice/NetPractice_lv6_after.png",
+    "재료/img/NetPractice/NetPractice_lv6_before.png",
+    "재료/img/NetPractice/NetPractice_lv7_after.png",
+    "재료/img/NetPractice/NetPractice_lv7_before.png",
+    "재료/img/NetPractice/NetPractice_lv8_after.png",
+    "재료/img/NetPractice/NetPractice_lv8_before.png",
+    "재료/img/NetPractice/NetPractice_lv9_after.png",
+    "재료/img/NetPractice/NetPractice_lv9_before.png",
+    "재료/img/NetPractice/NetPractice_lv10_after.png",
+    "재료/img/NetPractice/NetPractice_lv10_before.png",
+    "재료/img/static 키워드/static 멤버변수.png",
+    "재료/img/TCP 소켓/tcp 소켓의 데이터 송신 오류.png",
+    "재료/img/TCP 소켓/tcp 소켓의 연결 설정 과정.png",
+    "재료/img/TCP 소켓/tcp 소켓의 연결종료 과정.png",
+    "재료/img/TCP 소켓/tcp 소켓의 입출력 버퍼.png",
+    "재료/img/다중 접속 서버 구현 방식.html",
+    "재료/template/개요.md",
+    "재료/template/개요와 참고자료.md",
+    "재료/template/참고자료.md",
+    "archive/tmp.md",
+    "area/오디세이세미나3_2025-1.pptx",
+    "area/참고도서.md",
+    "area/참고링크.md",
+    "area/흑요석 공예.md",
+    "Excalidraw/Drawing 2025-02-04 18.13.47.excalidraw.md",
+    "Excalidraw/Drawing 2025-02-04 18.24.22.excalidraw.md",
+    "project/4-2학기/닐스 올라프 경 자료조사.md",
+    "project/42Seoul/42 innercircle 정리/42 innercirle 정리.md",
+    "project/42Seoul/ft_transcendence/모듈 설계/authentication.mjs.md",
+    "project/42Seoul/ft_transcendence/모듈 설계/page.mjs.md",
+    "project/42Seoul/ft_transcendence/42 oauth 기반 로그인 구현 방법.md",
+    "project/42Seoul/ft_transcendence/참고할만한 것들.md",
+    "project/42Seoul/ft_transcendence/jwt.excalidraw.md",
+    "project/42Seoul/ft_transcendence/page flow.excalidraw.md",
+    "project/42Seoul/ft_transcendence/socket io flow.md",
+    "project/42Seoul/inception/낙서장.md",
+    "project/42Seoul/inception/마이크로서비스.md",
+    "project/42Seoul/inception/캐시.md",
+    "project/42Seoul/inception/NGINX.md",
+    "project/42Seoul/inception/php-fpm.md",
+    "project/42Seoul/inception/tls.md",
+    "project/42Seoul/microshell/flowchart/main-flowchart.excalidraw.md",
+    "project/42Seoul/microshell/flowchart/microshell-flowchart.excalidraw.md",
+    "project/42Seoul/microshell/flowchart/parse_line-flowchart.excalidraw.md",
+    "project/42Seoul/microshell/microshell 문제 번역.md",
+    "project/42Seoul/mini_serv/mini_serv 억까 방지용 시트.md",
+    "project/42Seoul/miniRT/flowchart/main.excalidraw.md",
+    "project/42Seoul/miniRT/flowchart/parseRtFile.excalidraw.md",
+    "project/42Seoul/miniRT/메모장.md",
+    "project/42Seoul/miniRT/miniRT.pdf.md",
+    "project/42Seoul/NetPractice.md",
+    "resource/Algorithm/그래프.md",
+    "resource/Algorithm/브루트 포스.md",
+    "resource/Database/데이터베이스.md",
+    "resource/Database/MySQL.md",
+    "resource/Docker/도커.md",
+    "resource/Docker/도커 네트워크.md",
+    "resource/Docker/도커 명령어.md",
+    "resource/Docker/도커 컴포즈.md",
+    "resource/Docker/도커 허브.md",
+    "resource/Docker/마운트.md",
+    "resource/Docker/이미지.md",
+    "resource/Docker/컨테이너.md",
+    "resource/Docker/Dockerfile.md",
+    "resource/Language/C++/가상 상속.md",
+    "resource/Language/C++/가상 소멸자.md",
+    "resource/Language/C++/가상 함수.md",
+    "resource/Language/C++/가상 함수 테이블.md",
+    "resource/Language/C++/구조체.md",
+    "resource/Language/C++/깊은 복사.md",
+    "resource/Language/C++/다중 상속.md",
+    "resource/Language/C++/다형성.md",
+    "resource/Language/C++/디폴트 생성자.md",
+    "resource/Language/C++/디폴트 소멸자.md",
+    "resource/Language/C++/리터럴.md",
+    "resource/Language/C++/매개변수의 디폴트 값.md",
+    "resource/Language/C++/멤버 이니셜라이저.md",
+    "resource/Language/C++/범위지정 연산자.md",
+    "resource/Language/C++/복사 생성자.md",
+    "resource/Language/C++/상속.md",
+    "resource/Language/C++/생성자.md",
+    "resource/Language/C++/소멸자.md",
+    "resource/Language/C++/얕은 복사.md",
+    "resource/Language/C++/연산자 오버로딩.md",
+    "resource/Language/C++/예외 처리.md",
+    "resource/Language/C++/이름공간.md",
+    "resource/Language/C++/인라인 함수.md",
+    "resource/Language/C++/임시 객체.md",
+    "resource/Language/C++/자료형.md",
+    "resource/Language/C++/접근제어 지시자.md",
+    "resource/Language/C++/정보은닉.md",
+    "resource/Language/C++/조정자.md",
+    "resource/Language/C++/참조자.md",
+    "resource/Language/C++/추상 클래스.md",
+    "resource/Language/C++/컨트롤 클래스.md",
+    "resource/Language/C++/클래스.md",
+    "resource/Language/C++/클래스 템플릿.md",
+    "resource/Language/C++/템플릿.md",
+    "resource/Language/C++/함수 오버라이딩.md",
+    "resource/Language/C++/함수 오버로딩.md",
+    "resource/Language/C++/형 변환.md",
+    "resource/Language/C++/a reference.md",
+    "resource/Language/C++/C++ 언어의 객체 배열.md",
+    "resource/Language/C++/C++ 언어의 변수 선언과 초기화.md",
+    "resource/Language/C++/C++ 언어의 헤더파일 형식.md",
+    "resource/Language/C++/C++ 언어의 bool 자료형.md",
+    "resource/Language/C++/Call-by-reference.md",
+    "resource/Language/C++/const.md",
+    "resource/Language/C++/explicit 키워드.md",
+    "resource/Language/C++/friend 선언.md",
+    "resource/Language/C++/mutable 키워드.md",
+    "resource/Language/C++/new & delete.md",
+    "resource/Language/C++/static 키워드.md",
+    "resource/Language/C++/this.md",
+    "resource/Language/C++/virtual 키워드.md",
+    "resource/Linux/cmd/envsubst.md",
+    "resource/Linux/cmd/ssh.md",
+    "resource/Mathmetic/모듈러 산술.md",
+    "resource/Network/기초 개념/게이트웨이.md",
+    "resource/Network/기초 개념/공인 IP 주소.md",
+    "resource/Network/기초 개념/네트워크 토폴로지.md",
+    "resource/Network/기초 개념/네트워크 프로토콜.md",
+    "resource/Network/기초 개념/동적 라우팅.md",
+    "resource/Network/기초 개념/라우터.md",
+    "resource/Network/기초 개념/라우팅.md",
+    "resource/Network/기초 개념/리피터.md",
+    "resource/Network/기초 개념/멀티캐스트.md",
+    "resource/Network/기초 개념/브로드캐스트.md",
+    "resource/Network/기초 개념/브로드캐스트 도메인.md",
+    "resource/Network/기초 개념/브리지.md",
+    "resource/Network/기초 개념/사설 IP 주소.md",
+    "resource/Network/기초 개념/서브넷 마스크.md",
+    "resource/Network/기초 개념/스위칭 허브.md",
+    "resource/Network/기초 개념/스타형 LAN.md",
+    "resource/Network/기초 개념/유니캐스트.md",
+    "resource/Network/기초 개념/이더넷.md",
+    "resource/Network/기초 개념/정적 라우팅.md",
+    "resource/Network/기초 개념/콜리전 도메인.md",
+    "resource/Network/기초 개념/패킷.md",
+    "resource/Network/기초 개념/허브.md",
+    "resource/Network/기초 개념/IP.md",
+    "resource/Network/기초 개념/IP 주소.md",
+    "resource/Network/기초 개념/LAN.md",
+    "resource/Network/기초 개념/MAC 주소.md",
+    "resource/Network/기초 개념/NIC.md",
+    "resource/Network/기초 개념/OSI 참조 모델.md",
+    "resource/Network/기초 개념/TCP.md",
+    "resource/Network/기초 개념/TCP IP.md",
+    "resource/Network/기초 개념/UDP.md",
+    "resource/Network/기초 개념/WAN.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/네트워크 바이트 순서.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/다중 접속 서버.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/멀티 쓰레딩 기반 서버.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/멀티 프로세스 기반 서버.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/멀티 플렉싱 기반 서버.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/소켓의 타입.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/프로토콜 체계.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/호스트 바이트 순서.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/accept.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/bind.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/connect.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/Half-close.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/htons.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/INADDR_ANY.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/inet_addr.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/inet_aton.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/inet_ntoa.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/listen.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/select.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/shutdown.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/sockaddr_in.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/socket.md",
+    "resource/Network/소켓 프로그래밍(리눅스)/TCP 소켓.md",
+    "resource/Security/암호학/단방향 암호화.md",
+    "resource/Security/암호학/암호학.md",
+    "resource/Security/암호학/양방향 암호화.md",
+    "resource/Web/CSS/그리드.md",
+    "resource/Web/CSS/CSS 선택자.md",
+    "resource/Web/CSS/CSS3 스타일 속성 기본.md",
+    "resource/Web/HTML/HTML.md",
+    "resource/Web/HTML/HTML 태그, 요소 그리고 속성.md",
+    "resource/Web/JavaScript/디스트럭처링.md",
+    "resource/Web/JavaScript/모듈.md",
+    "resource/Web/JavaScript/제너레이터.md",
+    "resource/Web/JavaScript/프로미스.md",
+    "resource/Web/JavaScript/Ajax.md",
+    "resource/Web/JavaScript/async await.md",
+    "resource/Web/JavaScript/fetch.md",
+    "resource/Web/JavaScript/JavaScript 기초.md",
+    "resource/Web/JavaScript/JSON.md",
+    "resource/Web/JavaScript/npm.md",
+    "resource/Web/JavaScript/REST API.md",
+    "resource/Web/JavaScript/TDZ.md",
+    "resource/Web/JavaScript/XMLHttpRequest.md",
+    "resource/Web/2FA.md",
+    "resource/Web/JWT.md",
+    "resource/Web/WWW.md",
+    "resource/정확도와 정밀도.md",
+    "resource/ANSI escape code.md",
     "index.md",
+    "README.md",
+    "lib/media/fdf.png",
+    "lib/media/netpractice_lv1_before.png",
+    "lib/media/netpractice_lv2_before.png",
+    "lib/media/netpractice_lv2_after.png",
+    "lib/media/netpractice_lv3_before.png",
+    "lib/media/netpractice_lv3_after.png",
+    "lib/media/netpractice_lv4_before.png",
+    "lib/media/netpractice_lv4_after.png",
+    "lib/media/netpractice_lv5_before.png",
+    "lib/media/netpractice_lv6_before.png",
+    "lib/media/netpractice_lv6_after.png",
+    "lib/media/netpractice_lv7_before.png",
+    "lib/media/netpractice_lv7_after.png",
+    "lib/media/netpractice_lv8_before.png",
+    "lib/media/netpractice_lv8_after.png",
+    "lib/media/netpractice_lv9_before.png",
+    "lib/media/netpractice_lv9_after.png",
+    "lib/media/netpractice_lv10_before.png",
+    "lib/media/netpractice_lv10_after.png",
+    "lib/media/도커의-구조.jpeg",
+    "lib/media/윈도우에서의-도커의-구조.png",
+    "lib/media/도커-네트워크-구조.png",
+    "lib/media/컨테이너의-구조.png",
+    "lib/media/가상-함수-테이블.png",
+    "lib/media/얕은-복사-깊은-복사.png",
+    "lib/media/얕은-복사.png",
+    "lib/media/디폴트-대입-연산자의-동작(얕은-복사).png",
+    "lib/media/static-멤버변수.png",
+    "lib/media/다중-접속-서버-구현-방식.jpg",
+    "lib/media/tcp-입출력-루틴-분할.png",
+    "lib/media/accept의-기능.png",
+    "lib/media/소켓을-기반으로-생성되는-두-개의-스트림.png",
+    "lib/media/일방적-연결종료.png",
+    "lib/media/파일-전송-데이터-흐름도.png",
+    "lib/media/연결-요청-대기-큐.png",
+    "lib/media/tcp-소켓의-입출력-버퍼.png",
+    "lib/media/tcp-소켓의-연결-설정-과정.png",
+    "lib/media/tcp-소켓의-데이터-송신-오류.png",
+    "lib/media/tcp-소켓의-연결종료-과정.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -69,184 +336,1842 @@
     "lib/styles/main-styles.css"
   ],
   "fileInfo": {
+    "재료/미사용 template 저장 폴더/코드 블록 html.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 14,
+      "exportedPath": "재료/미사용-template-저장-폴더/코드-블록-html.html",
+      "dependencies": []
+    },
+    "재료/미사용 template 저장 폴더/코드 블록 javascript.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 20,
+      "exportedPath": "재료/미사용-template-저장-폴더/코드-블록-javascript.html",
+      "dependencies": []
+    },
+    "재료/미사용 template 저장 폴더/js 문서 임시 템플릿.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 118,
+      "exportedPath": "재료/미사용-template-저장-폴더/js-문서-임시-템플릿.html",
+      "dependencies": []
+    },
+    "재료/img/42 innercircle 정리/FdF.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 111538,
+      "exportedPath": "재료/img/42-innercircle-정리/fdf.png",
+      "dependencies": []
+    },
+    "재료/img/가상 함수 테이블/가상 함수 테이블.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 81551,
+      "exportedPath": "재료/img/가상-함수-테이블/가상-함수-테이블.png",
+      "dependencies": []
+    },
+    "재료/img/다중 접속 서버 구현 방식/다중 접속 서버 구현 방식.jpg": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1702579,
+      "exportedPath": "재료/img/다중-접속-서버-구현-방식/다중-접속-서버-구현-방식.jpg",
+      "dependencies": []
+    },
+    "재료/img/도커/도커의 구조.jpeg": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 70760,
+      "exportedPath": "재료/img/도커/도커의-구조.jpeg",
+      "dependencies": []
+    },
+    "재료/img/도커/윈도우에서의 도커의 구조.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 6273,
+      "exportedPath": "재료/img/도커/윈도우에서의-도커의-구조.png",
+      "dependencies": []
+    },
+    "재료/img/도커 네트워크/도커 네트워크 구조.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 76275,
+      "exportedPath": "재료/img/도커-네트워크/도커-네트워크-구조.png",
+      "dependencies": []
+    },
+    "재료/img/멀티 프로세스 기반 서버/tcp 입출력 루틴 분할.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 33505,
+      "exportedPath": "재료/img/멀티-프로세스-기반-서버/tcp-입출력-루틴-분할.png",
+      "dependencies": []
+    },
+    "재료/img/얕은 복사, 깊은 복사/얕은 복사.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 175010,
+      "exportedPath": "재료/img/얕은-복사,-깊은-복사/얕은-복사.png",
+      "dependencies": []
+    },
+    "재료/img/얕은 복사, 깊은 복사/얕은 복사 깊은 복사.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 69221,
+      "exportedPath": "재료/img/얕은-복사,-깊은-복사/얕은-복사-깊은-복사.png",
+      "dependencies": []
+    },
+    "재료/img/연산자 오버로딩/디폴트 대입 연산자의 동작(얕은 복사).png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 6974045,
+      "exportedPath": "재료/img/연산자-오버로딩/디폴트-대입-연산자의-동작(얕은-복사).png",
+      "dependencies": []
+    },
+    "재료/img/컨테이너/컨테이너의 구조.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 6906,
+      "exportedPath": "재료/img/컨테이너/컨테이너의-구조.png",
+      "dependencies": []
+    },
+    "재료/img/accept/accept의 기능.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 126908,
+      "exportedPath": "재료/img/accept/accept의-기능.png",
+      "dependencies": []
+    },
+    "재료/img/Half-close/소켓을 기반으로 생성되는 두 개의 스트림.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 24003,
+      "exportedPath": "재료/img/half-close/소켓을-기반으로-생성되는-두-개의-스트림.png",
+      "dependencies": []
+    },
+    "재료/img/Half-close/일방적 연결종료.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 4940,
+      "exportedPath": "재료/img/half-close/일방적-연결종료.png",
+      "dependencies": []
+    },
+    "재료/img/Half-close/파일 전송 데이터 흐름도.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 112110,
+      "exportedPath": "재료/img/half-close/파일-전송-데이터-흐름도.png",
+      "dependencies": []
+    },
+    "재료/img/listen/연결 요청 대기 큐.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 121575,
+      "exportedPath": "재료/img/listen/연결-요청-대기-큐.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv1_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 759915,
+      "exportedPath": "재료/img/netpractice/netpractice_lv1_before.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv2_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 827401,
+      "exportedPath": "재료/img/netpractice/netpractice_lv2_after.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv2_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 752686,
+      "exportedPath": "재료/img/netpractice/netpractice_lv2_before.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv3_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 901581,
+      "exportedPath": "재료/img/netpractice/netpractice_lv3_after.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv3_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 826848,
+      "exportedPath": "재료/img/netpractice/netpractice_lv3_before.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv4_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 971652,
+      "exportedPath": "재료/img/netpractice/netpractice_lv4_after.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv4_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 903181,
+      "exportedPath": "재료/img/netpractice/netpractice_lv4_before.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv5_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 949504,
+      "exportedPath": "재료/img/netpractice/netpractice_lv5_after.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv5_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 866726,
+      "exportedPath": "재료/img/netpractice/netpractice_lv5_before.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv6_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1000419,
+      "exportedPath": "재료/img/netpractice/netpractice_lv6_after.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv6_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 916264,
+      "exportedPath": "재료/img/netpractice/netpractice_lv6_before.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv7_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 980778,
+      "exportedPath": "재료/img/netpractice/netpractice_lv7_after.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv7_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 890290,
+      "exportedPath": "재료/img/netpractice/netpractice_lv7_before.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv8_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1067344,
+      "exportedPath": "재료/img/netpractice/netpractice_lv8_after.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv8_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 984376,
+      "exportedPath": "재료/img/netpractice/netpractice_lv8_before.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv9_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1189474,
+      "exportedPath": "재료/img/netpractice/netpractice_lv9_after.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv9_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1336872,
+      "exportedPath": "재료/img/netpractice/netpractice_lv9_before.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv10_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1291077,
+      "exportedPath": "재료/img/netpractice/netpractice_lv10_after.png",
+      "dependencies": []
+    },
+    "재료/img/NetPractice/NetPractice_lv10_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1214071,
+      "exportedPath": "재료/img/netpractice/netpractice_lv10_before.png",
+      "dependencies": []
+    },
+    "재료/img/static 키워드/static 멤버변수.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 33532,
+      "exportedPath": "재료/img/static-키워드/static-멤버변수.png",
+      "dependencies": []
+    },
+    "재료/img/TCP 소켓/tcp 소켓의 데이터 송신 오류.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 50839,
+      "exportedPath": "재료/img/tcp-소켓/tcp-소켓의-데이터-송신-오류.png",
+      "dependencies": []
+    },
+    "재료/img/TCP 소켓/tcp 소켓의 연결 설정 과정.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 5440,
+      "exportedPath": "재료/img/tcp-소켓/tcp-소켓의-연결-설정-과정.png",
+      "dependencies": []
+    },
+    "재료/img/TCP 소켓/tcp 소켓의 연결종료 과정.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 58678,
+      "exportedPath": "재료/img/tcp-소켓/tcp-소켓의-연결종료-과정.png",
+      "dependencies": []
+    },
+    "재료/img/TCP 소켓/tcp 소켓의 입출력 버퍼.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 61588,
+      "exportedPath": "재료/img/tcp-소켓/tcp-소켓의-입출력-버퍼.png",
+      "dependencies": []
+    },
+    "재료/img/다중 접속 서버 구현 방식.html": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 85894,
+      "exportedPath": "재료/img/다중-접속-서버-구현-방식.html",
+      "dependencies": []
+    },
+    "재료/template/개요.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 18,
+      "exportedPath": "재료/template/개요.html",
+      "dependencies": []
+    },
+    "재료/template/개요와 참고자료.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 44,
+      "exportedPath": "재료/template/개요와-참고자료.html",
+      "dependencies": []
+    },
+    "재료/template/참고자료.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 26,
+      "exportedPath": "재료/template/참고자료.html",
+      "dependencies": []
+    },
+    "archive/tmp.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 0,
+      "exportedPath": "archive/tmp.html",
+      "dependencies": []
+    },
+    "area/오디세이세미나3_2025-1.pptx": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1016326,
+      "exportedPath": "area/오디세이세미나3_2025-1.pptx",
+      "dependencies": []
+    },
+    "area/참고도서.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2464,
+      "exportedPath": "area/참고도서.html",
+      "dependencies": []
+    },
+    "area/참고링크.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1093,
+      "exportedPath": "area/참고링크.html",
+      "dependencies": []
+    },
+    "area/흑요석 공예.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1811,
+      "exportedPath": "area/흑요석-공예.html",
+      "dependencies": []
+    },
+    "Excalidraw/Drawing 2025-02-04 18.13.47.excalidraw.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 10782,
+      "exportedPath": "excalidraw/drawing-2025-02-04-18.13.47.excalidraw.html",
+      "dependencies": []
+    },
+    "Excalidraw/Drawing 2025-02-04 18.24.22.excalidraw.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 570,
+      "exportedPath": "excalidraw/drawing-2025-02-04-18.24.22.excalidraw.html",
+      "dependencies": []
+    },
+    "project/4-2학기/닐스 올라프 경 자료조사.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 9462,
+      "exportedPath": "project/4-2학기/닐스-올라프-경-자료조사.html",
+      "dependencies": []
+    },
+    "project/42Seoul/42 innercircle 정리/42 innercirle 정리.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 12669,
+      "exportedPath": "project/42seoul/42-innercircle-정리/42-innercirle-정리.html",
+      "dependencies": [
+        "lib/media/fdf.png"
+      ]
+    },
+    "project/42Seoul/ft_transcendence/모듈 설계/authentication.mjs.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 659,
+      "exportedPath": "project/42seoul/ft_transcendence/모듈-설계/authentication.mjs.html",
+      "dependencies": []
+    },
+    "project/42Seoul/ft_transcendence/모듈 설계/page.mjs.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 646,
+      "exportedPath": "project/42seoul/ft_transcendence/모듈-설계/page.mjs.html",
+      "dependencies": []
+    },
+    "project/42Seoul/ft_transcendence/42 oauth 기반 로그인 구현 방법.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 138,
+      "exportedPath": "project/42seoul/ft_transcendence/42-oauth-기반-로그인-구현-방법.html",
+      "dependencies": []
+    },
+    "project/42Seoul/ft_transcendence/참고할만한 것들.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2552,
+      "exportedPath": "project/42seoul/ft_transcendence/참고할만한-것들.html",
+      "dependencies": []
+    },
+    "project/42Seoul/ft_transcendence/jwt.excalidraw.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 12629,
+      "exportedPath": "project/42seoul/ft_transcendence/jwt.excalidraw.html",
+      "dependencies": []
+    },
+    "project/42Seoul/ft_transcendence/page flow.excalidraw.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 38293,
+      "exportedPath": "project/42seoul/ft_transcendence/page-flow.excalidraw.html",
+      "dependencies": []
+    },
+    "project/42Seoul/ft_transcendence/socket io flow.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 36320,
+      "exportedPath": "project/42seoul/ft_transcendence/socket-io-flow.html",
+      "dependencies": []
+    },
+    "project/42Seoul/inception/낙서장.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1383,
+      "exportedPath": "project/42seoul/inception/낙서장.html",
+      "dependencies": []
+    },
+    "project/42Seoul/inception/마이크로서비스.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1850,
+      "exportedPath": "project/42seoul/inception/마이크로서비스.html",
+      "dependencies": []
+    },
+    "project/42Seoul/inception/캐시.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2900,
+      "exportedPath": "project/42seoul/inception/캐시.html",
+      "dependencies": []
+    },
+    "project/42Seoul/inception/NGINX.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 11899,
+      "exportedPath": "project/42seoul/inception/nginx.html",
+      "dependencies": []
+    },
+    "project/42Seoul/inception/php-fpm.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1218,
+      "exportedPath": "project/42seoul/inception/php-fpm.html",
+      "dependencies": []
+    },
+    "project/42Seoul/inception/tls.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 93,
+      "exportedPath": "project/42seoul/inception/tls.html",
+      "dependencies": []
+    },
+    "project/42Seoul/microshell/flowchart/main-flowchart.excalidraw.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 11667,
+      "exportedPath": "project/42seoul/microshell/flowchart/main-flowchart.excalidraw.html",
+      "dependencies": []
+    },
+    "project/42Seoul/microshell/flowchart/microshell-flowchart.excalidraw.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 30672,
+      "exportedPath": "project/42seoul/microshell/flowchart/microshell-flowchart.excalidraw.html",
+      "dependencies": []
+    },
+    "project/42Seoul/microshell/flowchart/parse_line-flowchart.excalidraw.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 18432,
+      "exportedPath": "project/42seoul/microshell/flowchart/parse_line-flowchart.excalidraw.html",
+      "dependencies": []
+    },
+    "project/42Seoul/microshell/microshell 문제 번역.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 4578,
+      "exportedPath": "project/42seoul/microshell/microshell-문제-번역.html",
+      "dependencies": []
+    },
+    "project/42Seoul/mini_serv/mini_serv 억까 방지용 시트.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 12717,
+      "exportedPath": "project/42seoul/mini_serv/mini_serv-억까-방지용-시트.html",
+      "dependencies": []
+    },
+    "project/42Seoul/miniRT/flowchart/main.excalidraw.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1669,
+      "exportedPath": "project/42seoul/minirt/flowchart/main.excalidraw.html",
+      "dependencies": []
+    },
+    "project/42Seoul/miniRT/flowchart/parseRtFile.excalidraw.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 7277,
+      "exportedPath": "project/42seoul/minirt/flowchart/parsertfile.excalidraw.html",
+      "dependencies": []
+    },
+    "project/42Seoul/miniRT/메모장.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2082,
+      "exportedPath": "project/42seoul/minirt/메모장.html",
+      "dependencies": []
+    },
+    "project/42Seoul/miniRT/miniRT.pdf.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 14167,
+      "exportedPath": "project/42seoul/minirt/minirt.pdf.html",
+      "dependencies": []
+    },
+    "project/42Seoul/NetPractice.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2118,
+      "exportedPath": "project/42seoul/netpractice.html",
+      "dependencies": [
+        "lib/media/netpractice_lv1_before.png",
+        "lib/media/netpractice_lv2_before.png",
+        "lib/media/netpractice_lv2_after.png",
+        "lib/media/netpractice_lv3_before.png",
+        "lib/media/netpractice_lv3_after.png",
+        "lib/media/netpractice_lv4_before.png",
+        "lib/media/netpractice_lv4_after.png",
+        "lib/media/netpractice_lv5_before.png",
+        "lib/media/netpractice_lv6_before.png",
+        "lib/media/netpractice_lv6_after.png",
+        "lib/media/netpractice_lv7_before.png",
+        "lib/media/netpractice_lv7_after.png",
+        "lib/media/netpractice_lv8_before.png",
+        "lib/media/netpractice_lv8_after.png",
+        "lib/media/netpractice_lv9_before.png",
+        "lib/media/netpractice_lv9_after.png",
+        "lib/media/netpractice_lv10_before.png",
+        "lib/media/netpractice_lv10_after.png"
+      ]
+    },
+    "resource/Algorithm/그래프.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2808,
+      "exportedPath": "resource/algorithm/그래프.html",
+      "dependencies": []
+    },
+    "resource/Algorithm/브루트 포스.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1305,
+      "exportedPath": "resource/algorithm/브루트-포스.html",
+      "dependencies": []
+    },
+    "resource/Database/데이터베이스.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 3154,
+      "exportedPath": "resource/database/데이터베이스.html",
+      "dependencies": []
+    },
+    "resource/Database/MySQL.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 11797,
+      "exportedPath": "resource/database/mysql.html",
+      "dependencies": []
+    },
+    "resource/Docker/도커.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 3168,
+      "exportedPath": "resource/docker/도커.html",
+      "dependencies": [
+        "lib/media/도커의-구조.jpeg",
+        "lib/media/윈도우에서의-도커의-구조.png"
+      ]
+    },
+    "resource/Docker/도커 네트워크.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 5063,
+      "exportedPath": "resource/docker/도커-네트워크.html",
+      "dependencies": [
+        "lib/media/도커-네트워크-구조.png"
+      ]
+    },
+    "resource/Docker/도커 명령어.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 12720,
+      "exportedPath": "resource/docker/도커-명령어.html",
+      "dependencies": []
+    },
+    "resource/Docker/도커 컴포즈.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 13746,
+      "exportedPath": "resource/docker/도커-컴포즈.html",
+      "dependencies": []
+    },
+    "resource/Docker/도커 허브.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1027,
+      "exportedPath": "resource/docker/도커-허브.html",
+      "dependencies": []
+    },
+    "resource/Docker/마운트.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 8670,
+      "exportedPath": "resource/docker/마운트.html",
+      "dependencies": []
+    },
+    "resource/Docker/이미지.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1916,
+      "exportedPath": "resource/docker/이미지.html",
+      "dependencies": []
+    },
+    "resource/Docker/컨테이너.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2363,
+      "exportedPath": "resource/docker/컨테이너.html",
+      "dependencies": [
+        "lib/media/컨테이너의-구조.png"
+      ]
+    },
+    "resource/Docker/Dockerfile.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 15531,
+      "exportedPath": "resource/docker/dockerfile.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/가상 상속.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1672,
+      "exportedPath": "resource/language/c++/가상-상속.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/가상 소멸자.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 927,
+      "exportedPath": "resource/language/c++/가상-소멸자.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/가상 함수.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2505,
+      "exportedPath": "resource/language/c++/가상-함수.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/가상 함수 테이블.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2009,
+      "exportedPath": "resource/language/c++/가상-함수-테이블.html",
+      "dependencies": [
+        "lib/media/가상-함수-테이블.png"
+      ]
+    },
+    "resource/Language/C++/구조체.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2570,
+      "exportedPath": "resource/language/c++/구조체.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/깊은 복사.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 748,
+      "exportedPath": "resource/language/c++/깊은-복사.html",
+      "dependencies": [
+        "lib/media/얕은-복사-깊은-복사.png"
+      ]
+    },
+    "resource/Language/C++/다중 상속.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2021,
+      "exportedPath": "resource/language/c++/다중-상속.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/다형성.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1064,
+      "exportedPath": "resource/language/c++/다형성.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/디폴트 생성자.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2100,
+      "exportedPath": "resource/language/c++/디폴트-생성자.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/디폴트 소멸자.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 453,
+      "exportedPath": "resource/language/c++/디폴트-소멸자.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/리터럴.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2286,
+      "exportedPath": "resource/language/c++/리터럴.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/매개변수의 디폴트 값.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1135,
+      "exportedPath": "resource/language/c++/매개변수의-디폴트-값.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/멤버 이니셜라이저.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2732,
+      "exportedPath": "resource/language/c++/멤버-이니셜라이저.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/범위지정 연산자.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 695,
+      "exportedPath": "resource/language/c++/범위지정-연산자.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/복사 생성자.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1998,
+      "exportedPath": "resource/language/c++/복사-생성자.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/상속.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 6271,
+      "exportedPath": "resource/language/c++/상속.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/생성자.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2621,
+      "exportedPath": "resource/language/c++/생성자.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/소멸자.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 928,
+      "exportedPath": "resource/language/c++/소멸자.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/얕은 복사.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 785,
+      "exportedPath": "resource/language/c++/얕은-복사.html",
+      "dependencies": [
+        "lib/media/얕은-복사.png",
+        "lib/media/얕은-복사-깊은-복사.png"
+      ]
+    },
+    "resource/Language/C++/연산자 오버로딩.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 21198,
+      "exportedPath": "resource/language/c++/연산자-오버로딩.html",
+      "dependencies": [
+        "lib/media/디폴트-대입-연산자의-동작(얕은-복사).png"
+      ]
+    },
+    "resource/Language/C++/예외 처리.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 11789,
+      "exportedPath": "resource/language/c++/예외-처리.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/이름공간.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 4953,
+      "exportedPath": "resource/language/c++/이름공간.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/인라인 함수.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2095,
+      "exportedPath": "resource/language/c++/인라인-함수.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/임시 객체.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2006,
+      "exportedPath": "resource/language/c++/임시-객체.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/자료형.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2562,
+      "exportedPath": "resource/language/c++/자료형.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/접근제어 지시자.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 801,
+      "exportedPath": "resource/language/c++/접근제어-지시자.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/정보은닉.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 343,
+      "exportedPath": "resource/language/c++/정보은닉.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/조정자.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 5136,
+      "exportedPath": "resource/language/c++/조정자.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/참조자.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 5158,
+      "exportedPath": "resource/language/c++/참조자.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/추상 클래스.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 345,
+      "exportedPath": "resource/language/c++/추상-클래스.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/컨트롤 클래스.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 307,
+      "exportedPath": "resource/language/c++/컨트롤-클래스.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/클래스.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 638,
+      "exportedPath": "resource/language/c++/클래스.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/클래스 템플릿.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 6774,
+      "exportedPath": "resource/language/c++/클래스-템플릿.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/템플릿.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 5943,
+      "exportedPath": "resource/language/c++/템플릿.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/함수 오버라이딩.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1085,
+      "exportedPath": "resource/language/c++/함수-오버라이딩.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/함수 오버로딩.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1211,
+      "exportedPath": "resource/language/c++/함수-오버로딩.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/형 변환.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 12096,
+      "exportedPath": "resource/language/c++/형-변환.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/a reference.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 183,
+      "exportedPath": "resource/language/c++/a-reference.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/C++ 언어의 객체 배열.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 857,
+      "exportedPath": "resource/language/c++/c++-언어의-객체-배열.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/C++ 언어의 변수 선언과 초기화.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 391,
+      "exportedPath": "resource/language/c++/c++-언어의-변수-선언과-초기화.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/C++ 언어의 헤더파일 형식.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1910,
+      "exportedPath": "resource/language/c++/c++-언어의-헤더파일-형식.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/C++ 언어의 bool 자료형.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1438,
+      "exportedPath": "resource/language/c++/c++-언어의-bool-자료형.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/Call-by-reference.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 209,
+      "exportedPath": "resource/language/c++/call-by-reference.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/const.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 967,
+      "exportedPath": "resource/language/c++/const.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/explicit 키워드.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 982,
+      "exportedPath": "resource/language/c++/explicit-키워드.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/friend 선언.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1729,
+      "exportedPath": "resource/language/c++/friend-선언.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/mutable 키워드.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 718,
+      "exportedPath": "resource/language/c++/mutable-키워드.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/new & delete.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1724,
+      "exportedPath": "resource/language/c++/new-&-delete.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/static 키워드.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 3079,
+      "exportedPath": "resource/language/c++/static-키워드.html",
+      "dependencies": [
+        "lib/media/static-멤버변수.png"
+      ]
+    },
+    "resource/Language/C++/this.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2207,
+      "exportedPath": "resource/language/c++/this.html",
+      "dependencies": []
+    },
+    "resource/Language/C++/virtual 키워드.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 288,
+      "exportedPath": "resource/language/c++/virtual-키워드.html",
+      "dependencies": []
+    },
+    "resource/Linux/cmd/envsubst.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 3412,
+      "exportedPath": "resource/linux/cmd/envsubst.html",
+      "dependencies": []
+    },
+    "resource/Linux/cmd/ssh.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 3972,
+      "exportedPath": "resource/linux/cmd/ssh.html",
+      "dependencies": []
+    },
+    "resource/Mathmetic/모듈러 산술.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 705,
+      "exportedPath": "resource/mathmetic/모듈러-산술.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/게이트웨이.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 891,
+      "exportedPath": "resource/network/기초-개념/게이트웨이.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/공인 IP 주소.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2479,
+      "exportedPath": "resource/network/기초-개념/공인-ip-주소.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/네트워크 토폴로지.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 873,
+      "exportedPath": "resource/network/기초-개념/네트워크-토폴로지.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/네트워크 프로토콜.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 418,
+      "exportedPath": "resource/network/기초-개념/네트워크-프로토콜.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/동적 라우팅.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 619,
+      "exportedPath": "resource/network/기초-개념/동적-라우팅.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/라우터.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 991,
+      "exportedPath": "resource/network/기초-개념/라우터.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/라우팅.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 641,
+      "exportedPath": "resource/network/기초-개념/라우팅.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/리피터.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1055,
+      "exportedPath": "resource/network/기초-개념/리피터.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/멀티캐스트.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 977,
+      "exportedPath": "resource/network/기초-개념/멀티캐스트.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/브로드캐스트.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 348,
+      "exportedPath": "resource/network/기초-개념/브로드캐스트.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/브로드캐스트 도메인.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 510,
+      "exportedPath": "resource/network/기초-개념/브로드캐스트-도메인.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/브리지.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1431,
+      "exportedPath": "resource/network/기초-개념/브리지.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/사설 IP 주소.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1483,
+      "exportedPath": "resource/network/기초-개념/사설-ip-주소.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/서브넷 마스크.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1073,
+      "exportedPath": "resource/network/기초-개념/서브넷-마스크.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/스위칭 허브.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1360,
+      "exportedPath": "resource/network/기초-개념/스위칭-허브.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/스타형 LAN.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 839,
+      "exportedPath": "resource/network/기초-개념/스타형-lan.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/유니캐스트.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 410,
+      "exportedPath": "resource/network/기초-개념/유니캐스트.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/이더넷.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 797,
+      "exportedPath": "resource/network/기초-개념/이더넷.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/정적 라우팅.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1187,
+      "exportedPath": "resource/network/기초-개념/정적-라우팅.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/콜리전 도메인.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 424,
+      "exportedPath": "resource/network/기초-개념/콜리전-도메인.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/패킷.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 988,
+      "exportedPath": "resource/network/기초-개념/패킷.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/허브.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 574,
+      "exportedPath": "resource/network/기초-개념/허브.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/IP.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 889,
+      "exportedPath": "resource/network/기초-개념/ip.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/IP 주소.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1318,
+      "exportedPath": "resource/network/기초-개념/ip-주소.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/LAN.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 808,
+      "exportedPath": "resource/network/기초-개념/lan.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/MAC 주소.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1046,
+      "exportedPath": "resource/network/기초-개념/mac-주소.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/NIC.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 573,
+      "exportedPath": "resource/network/기초-개념/nic.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/OSI 참조 모델.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2844,
+      "exportedPath": "resource/network/기초-개념/osi-참조-모델.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/TCP.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1483,
+      "exportedPath": "resource/network/기초-개념/tcp.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/TCP IP.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1218,
+      "exportedPath": "resource/network/기초-개념/tcp-ip.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/UDP.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1070,
+      "exportedPath": "resource/network/기초-개념/udp.html",
+      "dependencies": []
+    },
+    "resource/Network/기초 개념/WAN.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 684,
+      "exportedPath": "resource/network/기초-개념/wan.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/네트워크 바이트 순서.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 757,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/네트워크-바이트-순서.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/다중 접속 서버.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2511,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/다중-접속-서버.html",
+      "dependencies": [
+        "lib/media/다중-접속-서버-구현-방식.jpg"
+      ]
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/멀티 쓰레딩 기반 서버.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 143,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/멀티-쓰레딩-기반-서버.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/멀티 프로세스 기반 서버.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 6625,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/멀티-프로세스-기반-서버.html",
+      "dependencies": [
+        "lib/media/tcp-입출력-루틴-분할.png"
+      ]
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/멀티 플렉싱 기반 서버.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1692,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/멀티-플렉싱-기반-서버.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/소켓의 타입.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 5034,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/소켓의-타입.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/프로토콜 체계.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 965,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/프로토콜-체계.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/호스트 바이트 순서.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1255,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/호스트-바이트-순서.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/accept.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1701,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/accept.html",
+      "dependencies": [
+        "lib/media/accept의-기능.png"
+      ]
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/bind.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 939,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/bind.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/connect.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2027,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/connect.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/Half-close.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 5803,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/half-close.html",
+      "dependencies": [
+        "lib/media/소켓을-기반으로-생성되는-두-개의-스트림.png",
+        "lib/media/일방적-연결종료.png",
+        "lib/media/파일-전송-데이터-흐름도.png"
+      ]
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/htons.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1107,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/htons.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/INADDR_ANY.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1562,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/inaddr_any.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/inet_addr.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1010,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/inet_addr.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/inet_aton.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 503,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/inet_aton.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/inet_ntoa.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 858,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/inet_ntoa.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/listen.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2566,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/listen.html",
+      "dependencies": [
+        "lib/media/연결-요청-대기-큐.png"
+      ]
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/select.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 11237,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/select.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/shutdown.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1475,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/shutdown.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/sockaddr_in.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 4192,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/sockaddr_in.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/socket.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 905,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/socket.html",
+      "dependencies": []
+    },
+    "resource/Network/소켓 프로그래밍(리눅스)/TCP 소켓.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 7160,
+      "exportedPath": "resource/network/소켓-프로그래밍(리눅스)/tcp-소켓.html",
+      "dependencies": [
+        "lib/media/tcp-소켓의-입출력-버퍼.png",
+        "lib/media/tcp-소켓의-연결-설정-과정.png",
+        "lib/media/tcp-소켓의-데이터-송신-오류.png",
+        "lib/media/tcp-소켓의-연결종료-과정.png"
+      ]
+    },
+    "resource/Security/암호학/단방향 암호화.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1994,
+      "exportedPath": "resource/security/암호학/단방향-암호화.html",
+      "dependencies": []
+    },
+    "resource/Security/암호학/암호학.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2398,
+      "exportedPath": "resource/security/암호학/암호학.html",
+      "dependencies": []
+    },
+    "resource/Security/암호학/양방향 암호화.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 4247,
+      "exportedPath": "resource/security/암호학/양방향-암호화.html",
+      "dependencies": []
+    },
+    "resource/Web/CSS/그리드.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 92,
+      "exportedPath": "resource/web/css/그리드.html",
+      "dependencies": []
+    },
+    "resource/Web/CSS/CSS 선택자.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 30769,
+      "exportedPath": "resource/web/css/css-선택자.html",
+      "dependencies": []
+    },
+    "resource/Web/CSS/CSS3 스타일 속성 기본.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 43781,
+      "exportedPath": "resource/web/css/css3-스타일-속성-기본.html",
+      "dependencies": []
+    },
+    "resource/Web/HTML/HTML.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2589,
+      "exportedPath": "resource/web/html/html.html",
+      "dependencies": []
+    },
+    "resource/Web/HTML/HTML 태그, 요소 그리고 속성.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 29321,
+      "exportedPath": "resource/web/html/html-태그,-요소-그리고-속성.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/디스트럭처링.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2299,
+      "exportedPath": "resource/web/javascript/디스트럭처링.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/모듈.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 6657,
+      "exportedPath": "resource/web/javascript/모듈.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/제너레이터.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 9445,
+      "exportedPath": "resource/web/javascript/제너레이터.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/프로미스.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 30339,
+      "exportedPath": "resource/web/javascript/프로미스.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/Ajax.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 2683,
+      "exportedPath": "resource/web/javascript/ajax.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/async await.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 4006,
+      "exportedPath": "resource/web/javascript/async-await.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/fetch.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 4006,
+      "exportedPath": "resource/web/javascript/fetch.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/JavaScript 기초.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 81175,
+      "exportedPath": "resource/web/javascript/javascript-기초.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/JSON.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 3662,
+      "exportedPath": "resource/web/javascript/json.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/npm.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 524,
+      "exportedPath": "resource/web/javascript/npm.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/REST API.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 11460,
+      "exportedPath": "resource/web/javascript/rest-api.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/TDZ.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1509,
+      "exportedPath": "resource/web/javascript/tdz.html",
+      "dependencies": []
+    },
+    "resource/Web/JavaScript/XMLHttpRequest.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 9048,
+      "exportedPath": "resource/web/javascript/xmlhttprequest.html",
+      "dependencies": []
+    },
+    "resource/Web/2FA.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 362,
+      "exportedPath": "resource/web/2fa.html",
+      "dependencies": []
+    },
+    "resource/Web/JWT.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 3854,
+      "exportedPath": "resource/web/jwt.html",
+      "dependencies": []
+    },
+    "resource/Web/WWW.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 633,
+      "exportedPath": "resource/web/www.html",
+      "dependencies": []
+    },
+    "resource/정확도와 정밀도.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1366,
+      "exportedPath": "resource/정확도와-정밀도.html",
+      "dependencies": []
+    },
+    "resource/ANSI escape code.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 445,
+      "exportedPath": "resource/ansi-escape-code.html",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 0,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "README.md": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 56,
+      "exportedPath": "readme.html",
+      "dependencies": []
+    },
+    "lib/media/fdf.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 111538,
+      "exportedPath": "lib/media/fdf.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv1_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 759915,
+      "exportedPath": "lib/media/netpractice_lv1_before.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv2_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 752686,
+      "exportedPath": "lib/media/netpractice_lv2_before.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv2_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 827401,
+      "exportedPath": "lib/media/netpractice_lv2_after.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv3_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 826848,
+      "exportedPath": "lib/media/netpractice_lv3_before.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv3_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 901581,
+      "exportedPath": "lib/media/netpractice_lv3_after.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv4_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 903181,
+      "exportedPath": "lib/media/netpractice_lv4_before.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv4_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 971652,
+      "exportedPath": "lib/media/netpractice_lv4_after.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv5_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 866726,
+      "exportedPath": "lib/media/netpractice_lv5_before.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv6_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 916264,
+      "exportedPath": "lib/media/netpractice_lv6_before.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv6_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1000419,
+      "exportedPath": "lib/media/netpractice_lv6_after.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv7_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 890290,
+      "exportedPath": "lib/media/netpractice_lv7_before.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv7_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 980778,
+      "exportedPath": "lib/media/netpractice_lv7_after.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv8_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 984376,
+      "exportedPath": "lib/media/netpractice_lv8_before.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv8_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1067344,
+      "exportedPath": "lib/media/netpractice_lv8_after.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv9_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1336872,
+      "exportedPath": "lib/media/netpractice_lv9_before.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv9_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1189474,
+      "exportedPath": "lib/media/netpractice_lv9_after.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv10_before.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1214071,
+      "exportedPath": "lib/media/netpractice_lv10_before.png",
+      "dependencies": []
+    },
+    "lib/media/netpractice_lv10_after.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1291077,
+      "exportedPath": "lib/media/netpractice_lv10_after.png",
+      "dependencies": []
+    },
+    "lib/media/도커의-구조.jpeg": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 70760,
+      "exportedPath": "lib/media/도커의-구조.jpeg",
+      "dependencies": []
+    },
+    "lib/media/윈도우에서의-도커의-구조.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 6273,
+      "exportedPath": "lib/media/윈도우에서의-도커의-구조.png",
+      "dependencies": []
+    },
+    "lib/media/도커-네트워크-구조.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 76275,
+      "exportedPath": "lib/media/도커-네트워크-구조.png",
+      "dependencies": []
+    },
+    "lib/media/컨테이너의-구조.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 6906,
+      "exportedPath": "lib/media/컨테이너의-구조.png",
+      "dependencies": []
+    },
+    "lib/media/가상-함수-테이블.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 81551,
+      "exportedPath": "lib/media/가상-함수-테이블.png",
+      "dependencies": []
+    },
+    "lib/media/얕은-복사-깊은-복사.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 69221,
+      "exportedPath": "lib/media/얕은-복사-깊은-복사.png",
+      "dependencies": []
+    },
+    "lib/media/얕은-복사.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 175010,
+      "exportedPath": "lib/media/얕은-복사.png",
+      "dependencies": []
+    },
+    "lib/media/디폴트-대입-연산자의-동작(얕은-복사).png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 6974045,
+      "exportedPath": "lib/media/디폴트-대입-연산자의-동작(얕은-복사).png",
+      "dependencies": []
+    },
+    "lib/media/static-멤버변수.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 33532,
+      "exportedPath": "lib/media/static-멤버변수.png",
+      "dependencies": []
+    },
+    "lib/media/다중-접속-서버-구현-방식.jpg": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 1702579,
+      "exportedPath": "lib/media/다중-접속-서버-구현-방식.jpg",
+      "dependencies": []
+    },
+    "lib/media/tcp-입출력-루틴-분할.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 33505,
+      "exportedPath": "lib/media/tcp-입출력-루틴-분할.png",
+      "dependencies": []
+    },
+    "lib/media/accept의-기능.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 126908,
+      "exportedPath": "lib/media/accept의-기능.png",
+      "dependencies": []
+    },
+    "lib/media/소켓을-기반으로-생성되는-두-개의-스트림.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 24003,
+      "exportedPath": "lib/media/소켓을-기반으로-생성되는-두-개의-스트림.png",
+      "dependencies": []
+    },
+    "lib/media/일방적-연결종료.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 4940,
+      "exportedPath": "lib/media/일방적-연결종료.png",
+      "dependencies": []
+    },
+    "lib/media/파일-전송-데이터-흐름도.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 112110,
+      "exportedPath": "lib/media/파일-전송-데이터-흐름도.png",
+      "dependencies": []
+    },
+    "lib/media/연결-요청-대기-큐.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 121575,
+      "exportedPath": "lib/media/연결-요청-대기-큐.png",
+      "dependencies": []
+    },
+    "lib/media/tcp-소켓의-입출력-버퍼.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 61588,
+      "exportedPath": "lib/media/tcp-소켓의-입출력-버퍼.png",
+      "dependencies": []
+    },
+    "lib/media/tcp-소켓의-연결-설정-과정.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 5440,
+      "exportedPath": "lib/media/tcp-소켓의-연결-설정-과정.png",
+      "dependencies": []
+    },
+    "lib/media/tcp-소켓의-데이터-송신-오류.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 50839,
+      "exportedPath": "lib/media/tcp-소켓의-데이터-송신-오류.png",
+      "dependencies": []
+    },
+    "lib/media/tcp-소켓의-연결종료-과정.png": {
+      "modifiedTime": 1742629431779,
+      "sourceSize": 58678,
+      "exportedPath": "lib/media/tcp-소켓의-연결종료-과정.png",
+      "dependencies": []
+    },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1742629114166,
-      "sourceSize": 962,
+      "modifiedTime": 1742629431779,
+      "sourceSize": 111596,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1742629114166,
-      "sourceSize": 266,
+      "modifiedTime": 1742629431779,
+      "sourceSize": 13343,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 137466,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 12922,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 279,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1742629114166,
+      "modifiedTime": 1742629431779,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
-      "dependencies": []
-    },
-    "index.md": {
-      "modifiedTime": 1742629114166,
-      "sourceSize": 0,
-      "exportedPath": "index.html",
       "dependencies": []
     }
   }
