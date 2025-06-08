@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+          window.location.href = "./gameOver.html";
+        }, 5000);
+      });
+    </script>
+
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style/typingAnimation.css" />
+    <title>귀가</title>
+  </head>
+  <body class="bg-black bg-cover" id="backgroundimg">
+    <audio
+      id="sound"
+      src="./audio/자유로귀신_배드엔딩.wav"
+      autoplay="autoplay"
+    ></audio>
+  </body>
+</html>

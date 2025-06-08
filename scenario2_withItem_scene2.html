@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script type="module" src="./script/typingEffect.js"></script>
+
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style/typingAnimation.css" />
+    <title>귀가</title>
+  </head>
+  <body class="bg-[url(./img/다가온_망태.jpg)] bg-cover" id="backgroundimg">
+    <img class="h-200 absolute bottom-0 left-40" id="character1img" src="" />
+    <img class="h-200 absolute bottom-0 right-40" id="character2img" src="" />
+
+    <img
+      class="h-20 w-20 absolute top-10 right-10"
+      id="itemSlot1"
+      style="display: none"
+    />
+    <div
+      class="rounded-t-4xl h-10 w-50 absolute left-0 bottom-70 bg-red-900 opacity-50 flex justify-center items-center"
+    >
+      <p id="charactername" class="text-2xl text-white">[택시 정류장]</p>
+    </div>
+    <main class="absolute bottom-0 h-70 w-full bg-red-900 opacity-50">
+      <p id="dialogue" class="text-white text-2xl m-5">불길한 예감에 도깨비 감투를 꺼내 써버렸다.
+        내 몸은 투명해졌고, 할아버지는 곧 나를 못 본 채 지나쳐갔다.
+        숨을 죽이며 고개를 들자, 어느새 그는 저 멀리 사라져 있었다.
+      </p>
+      <a
+        class="bg-gray-500 hover:bg-gray-600 text-white text-4xl rounded px-10 py-1 absolute bottom-8 right-10"
+        id="nextButton"
+        href="scenario3_scene0.html"
+      >
+        ➡
+      </a>
+    </main>
+    <audio id="textBlip" src="./audio/대화창.mp3" loop="loop"></audio>
+    <audio id="sound" src="./audio/망태_발자국_소리.wav" autoplay="autoplay" volume="0.3" loop="loop"></audio>
+  </body>
+</html>

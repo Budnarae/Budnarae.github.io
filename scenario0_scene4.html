@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>귀가</title>
+  </head>
+  <body class="bg-[url(./img/튀어나온_달걀귀신.jpg)] bg-cover" id="backgroundimg">
+    <img class="h-200 absolute bottom-0 left-40" id="character1img" src="" />
+    <img class="h-200 absolute bottom-0 right-40" id="character2img" src="" />
+
+    <img
+      class="h-20 w-20 absolute top-10 right-10"
+      id="itemSlot1"
+      style="display: none"
+    />
+    <div
+      class="rounded-t-4xl h-10 w-50 absolute left-0 bottom-70 bg-red-900 opacity-50 flex justify-center items-center"
+    >
+      <p id="charactername" class="text-2xl text-white"></p>
+    </div>
+    <main class="absolute bottom-0 h-70 w-full bg-red-900 opacity-50 flex justify-center items-center">
+
+      <a
+        class="bg-gray-500 hover:bg-gray-600 text-white text-4xl rounded px-10 py-1"
+        id="aroute"
+        href="scenario0_selection0.html"
+      >이름을 알려준다</a>
+
+      <a
+        class="bg-gray-500 hover:bg-gray-600 text-white text-4xl rounded px-10 py-1"
+        id="broute"
+        href="scenario0_selection1.html"
+      >거울을 들이댄다</a>
+    </main>
+    <audio id="sound" src="./audio/달걀_귀신.mp3" autoplay="autoplay" loop="loop"></audio>
+  </body>
+</html>
